@@ -179,7 +179,7 @@ Variable `DRY_RUN=1` : affiche ce que ferait le script sans rien modifier.
 
 Stratégie : **GitHub Flow**.
 
-- `main` : branche principale, toujours déployable, **protégée** : PR obligatoire (sans approbation requise), conversations résolues obligatoires, ni force-push ni suppression. Les checks CI deviendront obligatoires dès que le pipeline existera (issue #6).
+- `main` : branche principale, toujours déployable, **protégée** : PR obligatoire (sans approbation requise), conversations résolues obligatoires, ni force-push ni suppression. Check obligatoire : « Conventions de PR » ; les checks lint, tests et build le deviendront dès que le pipeline existera (issue #6).
 - Merge en **squash uniquement** ; la branche est supprimée après merge. Le titre de la PR devient le message de commit sur `main` : il doit donc respecter Conventional Commits.
 - Branches courtes depuis `main` : `<type>/<N>-<slug>`, ex. `feat/15-catalogue-web`, `fix/42-focus-carte`, `docs/8-modele-donnees`.
 - Commits **Conventional Commits** : `feat(engine): ajoute le départage par GPA`, `fix(web): …`, `docs: …`, `test: …`, `chore: …`, `ci: …`. Messages en français, au présent.

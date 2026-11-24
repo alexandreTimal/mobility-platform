@@ -48,7 +48,7 @@ Le statut des issues sur le tableau suit tout seul (voir le [README](README.md#a
 | Relecture obligatoire | Non : **chaque membre est responsable de ses PR** (décision d'équipe) |
 | Conversations résolues avant merge | Oui |
 | Force-push et suppression de la branche | Interdits |
-| Checks CI obligatoires | Dès que le pipeline existe (issue #6) |
+| Checks obligatoires | « Conventions de PR » dès maintenant ; lint, tests et build dès que le pipeline existe (issue #6) |
 
 Une relecture reste la bienvenue : on peut demander l'avis de l'autre sur une PR sensible.
 
