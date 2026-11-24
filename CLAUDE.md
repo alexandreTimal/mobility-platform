@@ -175,7 +175,7 @@ Variable `DRY_RUN=1` : affiche ce que ferait le script sans rien modifier.
 
 ## 6. Git : branches, commits, PR
 
-> La stratégie détaillée sera écrite dans `CONTRIBUTING.md` (issue #5). En attendant :
+> Version détaillée pour les humains : [`CONTRIBUTING.md`](CONTRIBUTING.md). Les deux fichiers doivent rester cohérents.
 
 Stratégie : **GitHub Flow**.
 
