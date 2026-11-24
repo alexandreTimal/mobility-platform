@@ -50,17 +50,19 @@ if [[ ${#issues[@]} -eq 0 ]]; then
   exit 0
 fi
 
-# --- Métadonnées du Project ---------------------------------------------------
-project_id=$(gh project view "$PROJECT_NUMBER" --owner "$PROJECT_OWNER" --format json -q .id)
-fields=$(gh project field-list "$PROJECT_NUMBER" --owner "$PROJECT_OWNER" --format json)
-status_field=$(jq -r '.fields[] | select(.name=="Status") | .id' <<<"$fields")
-option_id=$(jq -r --arg t "$target" '.fields[] | select(.name=="Status") | .options[] | select(.name|endswith($t)) | .id' <<<"$fields")
+# --- Métadonnées du Project (GraphQL direct : le Project appartient à un utilisateur)
+# shellcheck disable=SC2016
+meta=$(gh api graphql -f l="$PROJECT_OWNER" -F p="$PROJECT_NUMBER" -f query='query($l:String!,$p:Int!){user(login:$l){projectV2(number:$p){id
+  field(name:"Status"){... on ProjectV2SingleSelectField{id options{id name}}}}}}' -q .data.user.projectV2)
+project_id=$(jq -r .id <<<"$meta")
+status_field=$(jq -r .field.id <<<"$meta")
+option_id=$(jq -r --arg t "$target" '.field.options[] | select(.name|endswith($t)) | .id' <<<"$meta")
 [[ -z "$option_id" ]] && { log "::error::Statut « $target » introuvable dans le Project."; exit 1; }
 
 owner=${REPO%/*}; name=${REPO#*/}
 # shellcheck disable=SC2016
 query='query($o:String!,$r:String!,$n:Int!){repository(owner:$o,name:$r){issueOrPullRequest(number:$n){
-  ... on Issue{ url assignees(first:1){totalCount}
+  ... on Issue{ id url assignees(first:1){totalCount}
     projectItems(first:20){nodes{id project{number}
       fieldValueByName(name:"Status"){... on ProjectV2ItemFieldSingleSelectValue{name}}}}}}}}'
 
@@ -77,7 +79,10 @@ for n in "${issues[@]}"; do
   if [[ -z "$item_id" ]]; then
     log "#$n absente du Project : ajout."
     if [[ "${DRY_RUN:-0}" == 1 ]]; then item_id="(dry-run)"; else
-      item_id=$(gh project item-add "$PROJECT_NUMBER" --owner "$PROJECT_OWNER" --url "$url" --format json -q .id); fi
+      # shellcheck disable=SC2016
+      item_id=$(gh api graphql -f p="$project_id" -f c="$(jq -r .id <<<"$data")" \
+        -f query='mutation($p:ID!,$c:ID!){addProjectV2ItemById(input:{projectId:$p,contentId:$c}){item{id}}}' \
+        -q .data.addProjectV2ItemById.item.id); fi
   fi
 
   # Les statuts sont « <emoji> <nom> » : on compare sur la fin du libellé.
@@ -90,8 +95,9 @@ for n in "${issues[@]}"; do
   elif [[ "$current" == *"$target" ]]; then
     log "#$n : déjà « $current »."
   else
-    run gh project item-edit --project-id "$project_id" --id "$item_id" \
-      --field-id "$status_field" --single-select-option-id "$option_id" >/dev/null
+    # shellcheck disable=SC2016
+    run gh api graphql -f p="$project_id" -f i="$item_id" -f f="$status_field" -f o="$option_id" \
+      -f query='mutation($p:ID!,$i:ID!,$f:ID!,$o:String!){updateProjectV2ItemFieldValue(input:{projectId:$p,itemId:$i,fieldId:$f,value:{singleSelectOptionId:$o}}){projectV2Item{id}}}' >/dev/null
     log "#$n : « ${current:-vide} » → « $target »."
   fi
 
