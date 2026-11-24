@@ -40,7 +40,9 @@ issues=()
 if [[ "$BRANCH" =~ ^[a-z]+/([0-9]+)- ]]; then issues+=("${BASH_REMATCH[1]}"); fi
 if [[ "$EVENT" == pull_request && -n "${PR_NUMBER:-}" ]]; then
   while read -r n; do [[ -n "$n" ]] && issues+=("$n"); done < <(
-    gh pr view "$PR_NUMBER" -R "$REPO" --json closingIssuesReferences -q '.closingIssuesReferences[].number')
+    gh api graphql -F n="$PR_NUMBER" -f o="${REPO%/*}" -f r="${REPO#*/}" \
+      -f query='query($o:String!,$r:String!,$n:Int!){repository(owner:$o,name:$r){pullRequest(number:$n){closingIssuesReferences(first:20){nodes{number}}}}}' \
+      -q '.data.repository.pullRequest.closingIssuesReferences.nodes[].number')
 fi
 if [[ ${#issues[@]} -gt 0 ]]; then mapfile -t issues < <(printf '%s\n' "${issues[@]}" | sort -un); fi
 if [[ ${#issues[@]} -eq 0 ]]; then
