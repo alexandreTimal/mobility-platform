@@ -1,8 +1,8 @@
 name: Suivi du projet
 
-# Tient le tableau GitHub Projects à jour à partir des branches et des PR,
-# et vérifie les conventions des PR (titre Conventional Commits + issue liée).
-# Détails : .github/scripts/project-sync.sh
+# Complète les workflows intégrés du GitHub Project (statut En cours au premier
+# push, retour À faire si PR abandonnée) et vérifie les conventions des PR
+# (titre Conventional Commits + issue liée). Détails : .github/scripts/project-sync.sh
 
 on:
   push:
@@ -30,8 +30,8 @@ jobs:
             echo "::error::Le titre doit suivre Conventional Commits, ex. « feat(web): ajoute le catalogue ». Reçu : « $TITLE »"
             ok=0
           fi
-          if ! grep -Eiq '(close[sd]?|fix(e[sd])?|resolve[sd]?) #[0-9]+' <<<"$BODY"; then
-            echo "::error::La description doit contenir « Closes #N » pour relier la PR à son issue."
+          if ! grep -Eiq '(close[sd]?|fix(e[sd])?|resolve[sd]?|refs?) #[0-9]+' <<<"$BODY"; then
+            echo "::error::La description doit contenir « Closes #N » (ou « Refs #N » si la PR ne termine pas l'issue)."
             ok=0
           fi
           [ "$ok" = 1 ] && echo "Conventions respectées."
@@ -41,7 +41,7 @@ jobs:
     name: Synchronisation du tableau
     if: >-
       github.event_name == 'push' ||
-      contains(fromJSON('["opened","reopened","ready_for_review","converted_to_draft","closed"]'), github.event.action)
+      (github.event.action == 'closed' && !github.event.pull_request.merged)
     runs-on: ubuntu-latest
     concurrency:
       group: project-sync-${{ github.head_ref || github.ref_name }}
@@ -62,4 +62,3 @@ jobs:
           ACTOR: ${{ github.actor }}
           PR_NUMBER: ${{ github.event.pull_request.number }}
           PR_MERGED: ${{ github.event.pull_request.merged }}
-          PR_DRAFT: ${{ github.event.pull_request.draft }}

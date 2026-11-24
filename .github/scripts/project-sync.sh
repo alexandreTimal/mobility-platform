@@ -1,15 +1,15 @@
 #!/usr/bin/env bash
-# Synchronise le champ « Status » du GitHub Project avec l'activité git.
+# Complète les workflows intégrés du GitHub Project (ajout auto → Backlog,
+# PR liée → En revue, fermé/mergé → Terminé, réouvert → À faire) avec ce
+# qu'ils ne savent pas faire :
 #
-#   push sur <type>/<N>-<slug>       → issue N : 🚧 En cours (si Backlog / À faire) + responsable si vide
-#   PR ouverte / prête pour revue    → 👀 En revue
-#   PR repassée en brouillon         → 🚧 En cours
-#   PR mergée                        → ✅ Terminé
-#   PR fermée sans merge             → 🎯 À faire
+#   push sur <type>/<N>-<slug>   → issue N : 🚧 En cours (si Backlog / À faire)
+#                                   + le pousseur devient responsable si l'issue n'en a pas
+#   PR fermée sans merge         → issues liées : 🎯 À faire (si En cours / En revue)
 #
 # Les issues sont trouvées via le nom de branche et les « Closes #N » de la PR.
 # Variables : GH_TOKEN, PROJECT_OWNER, PROJECT_NUMBER, REPO, EVENT, BRANCH, ACTOR
-#             + pour les PR : ACTION, PR_NUMBER, PR_MERGED, PR_DRAFT
+#             + pour les PR : ACTION, PR_NUMBER, PR_MERGED
 # DRY_RUN=1 affiche les changements sans rien modifier.
 set -euo pipefail
 
@@ -29,15 +29,9 @@ case "$EVENT" in
   push)
     target="En cours"; allowed_from=("Backlog" "À faire") ;;
   pull_request)
-    case "${ACTION:-}" in
-      opened|reopened|ready_for_review)
-        if [[ "${PR_DRAFT:-false}" == true ]]; then target="En cours"; allowed_from=("Backlog" "À faire")
-        else target="En revue"; allowed_from=("Backlog" "À faire" "En cours"); fi ;;
-      converted_to_draft) target="En cours"; allowed_from=("En revue") ;;
-      closed)
-        if [[ "${PR_MERGED:-false}" == true ]]; then target="Terminé"
-        else target="À faire"; allowed_from=("En cours" "En revue"); fi ;;
-    esac ;;
+    if [[ "${ACTION:-}" == closed && "${PR_MERGED:-false}" != true ]]; then
+      target="À faire"; allowed_from=("En cours" "En revue")
+    fi ;;
 esac
 [[ -z "$target" ]] && { log "Événement $EVENT/${ACTION:-} ignoré."; exit 0; }
 

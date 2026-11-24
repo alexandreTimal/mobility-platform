@@ -12,18 +12,18 @@ Le suivi se fait dans le [GitHub Project](../../projects) lié au dépôt : chaq
 
 ### Automatisation du tableau
 
-Le workflow [`Suivi du projet`](.github/workflows/project-sync.yml) met à jour le statut des issues dans le Project :
+| Événement | Statut de l'issue | Géré par |
+|---|---|---|
+| Issue créée | 📋 Backlog | Workflows intégrés du Project |
+| Premier push sur une branche `<type>/<N>-<slug>` | 🚧 En cours (+ le pousseur devient responsable si personne ne l'est) | Action [`Suivi du projet`](.github/workflows/project-sync.yml) |
+| PR liée ouverte (`Closes #N`) | 👀 En revue | Workflows intégrés |
+| PR mergée / issue fermée | ✅ Terminé | Workflows intégrés |
+| PR fermée sans merge | 🎯 À faire | Action `Suivi du projet` |
+| Issue réouverte | 🎯 À faire | Workflows intégrés |
 
-| Événement | Statut de l'issue |
-|---|---|
-| Premier push sur une branche `<type>/<N>-<slug>` | 🚧 En cours (et le pousseur devient responsable si personne ne l'est) |
-| PR ouverte (`Closes #N`) | 👀 En revue — en brouillon : 🚧 En cours |
-| PR mergée | ✅ Terminé |
-| PR fermée sans merge | 🎯 À faire |
+L'Action vérifie aussi que chaque PR a un titre [Conventional Commits](https://www.conventionalcommits.org/fr/) et contient `Closes #N` (ou `Refs #N` si elle ne termine pas l'issue).
 
-Il vérifie aussi que chaque PR a un titre [Conventional Commits](https://www.conventionalcommits.org/fr/) et contient `Closes #N`.
-
-Il a besoin du secret de dépôt `PROJECT_TOKEN` : un *personal access token (classic)* avec les scopes `repo` et `project` (le `GITHUB_TOKEN` par défaut ne peut pas modifier un Project utilisateur). Sans ce secret, la synchronisation est ignorée avec un avertissement.
+Elle a besoin du secret de dépôt `PROJECT_TOKEN` : un *personal access token (classic)* avec les scopes `repo` et `project` (le `GITHUB_TOKEN` par défaut ne peut pas modifier un Project utilisateur). Sans ce secret, la synchronisation est ignorée avec un avertissement.
 
 ## Sommaire (à compléter)
 
