@@ -1,0 +1,42 @@
+name: Fonctionnalité
+description: Proposer ou décrire une fonctionnalité à développer
+title: "feat: "
+labels: ["type: feature"]
+body:
+  - type: textarea
+    id: besoin
+    attributes:
+      label: Besoin
+      description: Qui en a besoin et pourquoi ? (étudiant, administrateur, développeur…)
+      placeholder: En tant qu'étudiant, je veux… afin de…
+    validations:
+      required: true
+  - type: textarea
+    id: criteres
+    attributes:
+      label: Critères d'acceptation
+      description: Conditions vérifiables pour considérer l'issue terminée.
+      placeholder: |
+        - [ ] …
+        - [ ] Accessible au clavier et au lecteur d'écran
+        - [ ] Tests ajoutés
+    validations:
+      required: true
+  - type: dropdown
+    id: perimetre
+    attributes:
+      label: Périmètre
+      multiple: true
+      options:
+        - Web
+        - Mobile
+        - API / backend
+        - Moteur de règles / affectation
+        - Données
+        - Documentation
+        - CI/CD
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes techniques
+      description: Pistes, liens, maquettes, dépendances avec d'autres issues.

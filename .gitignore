@@ -1,0 +1,31 @@
+# Outillage local (BMAD / Claude Code) — non versionné
+.bmad-loop/
+_bmad/
+_bmad-output/
+.claude/
+CLAUDE.local.md
+
+# Sujet (document de l'école, ne pas publier)
+*.pdf
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Dépendances et builds
+node_modules/
+dist/
+build/
+coverage/
+.turbo/
+.next/
+*.apk
+*.aab
+
+# Éditeurs et OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
