@@ -2,7 +2,10 @@
 .bmad-loop/
 _bmad/
 _bmad-output/
-.claude/
+.claude/*
+!.claude/skills/
+.claude/skills/*
+!.claude/skills/mobility-help/
 CLAUDE.local.md
 
 # Sujet (document de l'école, ne pas publier)
