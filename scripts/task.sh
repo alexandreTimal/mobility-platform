@@ -85,7 +85,10 @@ branch_name() {
   slug=$(sed -E 's/^[a-z0-9]+(\([^)]*\))?!?:[[:space:]]*//' <<<"$TITLE" \
     | iconv -f UTF-8 -t ASCII//TRANSLIT 2>/dev/null | tr '[:upper:]' '[:lower:]' \
     | sed -E 's/[^a-z0-9]+/ /g' \
-    | awk '{ s = ""; for (i = 1; i <= NF; i++) { t = s (s ? "-" : "") $i; if (length(t) > 40) break; s = t } print s }')
+    | awk '{ s = ""; n = 0; for (i = 1; i <= NF; i++) { t = s (s ? "-" : "") $i; if (length(t) > 40) break; s = t; w[++n] = $i }
+             # pas de mot vide en fin de branche (« …-protection-de »)
+             while (n > 1 && w[n] ~ /^(a|au|aux|d|de|des|du|en|et|l|la|le|les|ou|par|pour|sur|un|une)$/) { sub(/-[^-]*$/, "", s); n-- }
+             print s }')
   echo "$type/$N-${slug:-tache}"
 }
 
@@ -125,7 +128,7 @@ cmd_start() {
     branch=$existing; info "Branche existante : $branch."
   else
     branch=$(branch_name)
-    run git push -q origin "origin/main:refs/heads/$branch"
+    run git push -q origin "origin/main:refs/heads/$branch" 2>&1 | { grep -v '^remote:' || true; }
     info "Branche créée et poussée : $branch."
   fi
   if [[ -z "$(git status --porcelain)" ]]; then
