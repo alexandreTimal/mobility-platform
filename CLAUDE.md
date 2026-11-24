@@ -114,7 +114,7 @@ Le suivi est **évalué** : le tableau doit être tenu à jour du début à la f
 
 ### Cycle de vie d'une issue
 
-Le statut est **mis à jour automatiquement** : ne pas le déplacer à la main (sauf `📋 Backlog` → `🎯 À faire` lors de la planification).
+Le statut est **mis à jour automatiquement** : ne pas le déplacer à la main, sauf via `scripts/task.sh` (voir le rituel ci-dessous) ou pour passer de `📋 Backlog` à `🎯 À faire` lors de la planification.
 
 | Événement | Statut | Mécanisme |
 |---|---|---|
@@ -132,7 +132,7 @@ Déroulé :
 
 1. Créer l'issue avec un modèle (`.github/ISSUE_TEMPLATE/` : Fonctionnalité, Bug, Tâche ; les issues vierges sont désactivées). Titre en Conventional Commits : `feat(web): …`, `fix(api): …`, `docs: …`.
 2. Renseigner : labels type + zone, milestone, priorité, itération, estimation (responsable si déjà connu).
-3. Créer la branche depuis `main` **avec le numéro d'issue** (`feat/15-catalogue-web`) et pousser : l'issue passe en cours. Sans numéro dans le nom de branche, rien n'est synchronisé.
+3. Prendre la tâche avec `scripts/task.sh start <N>` : l'issue passe en cours et la branche `<type>/<N>-<slug>` est créée depuis `main`. (À la main, une branche avec le numéro d'issue poussée a le même effet ; sans numéro dans le nom de branche, rien n'est synchronisé.)
 4. Ouvrir la PR avec `Closes #N` (ou `Refs #N`) : l'issue passe en revue.
 5. Une fois les checks verts, l'auteur merge (squash) : l'issue se ferme et passe en terminé.
 
@@ -145,12 +145,32 @@ gh project item-add 3 --owner alexandreTimal --url <url-issue>
 gh pr create --fill   # puis vérifier que le corps contient "Closes #N" ou "Refs #N"
 ```
 
+### Rituel de suivi (qui fait quoi)
+
+But : savoir à tout moment qui travaille sur quoi, pour **ne jamais faire une tâche en double**, tout en laissant chacun **libre** de son organisation. Une seule règle est obligatoire : **signaler qu'on prend une tâche avant de commencer**. Le reste est libre. Détails : `docs/plans/2026-11-24-suivi-design.md`.
+
+| Moment | Commande | Effet |
+|---|---|---|
+| Voir qui fait quoi | `scripts/task.sh who` | Issues en cours ou en revue, avec leur responsable |
+| **Prendre une tâche** (obligatoire) | `scripts/task.sh start <N>` | Refuse si l'issue est déjà en cours chez quelqu'un d'autre ; sinon assigne, passe en `🚧 En cours`, crée et pousse la branche `<type>/<N>-<slug>`, commente « ▶️ Démarré » |
+| Donner des nouvelles (libre) | `scripts/task.sh note <N> "<texte>"` | Commentaire « 🔄 Point d'étape » |
+| Signaler un blocage | `scripts/task.sh block <N> "<raison>"` / `unblock <N>` | Label `bloqué` + commentaire |
+| Lâcher une tâche | `scripts/task.sh release <N> ["<raison>"]` | Retour en `🎯 À faire`, responsable retiré |
+
+Au fil de l'eau, sans effort : cocher les cases de l'issue quand une étape est faite, et mentionner `#N` dans les messages de commit (GitHub les affiche dans l'historique de l'issue).
+
+Volontairement libre : pas de limite de tâches en cours, pas de délai d'inactivité, pas de rythme imposé pour les points d'étape (en poster quand c'est utile à l'autre : changement de cap, étape importante, blocage). Une issue **assignée mais pas démarrée** est un plan, pas une réservation : on peut en parler et l'échanger.
+
+Variable `DRY_RUN=1` : affiche ce que ferait le script sans rien modifier.
+
 ### Ce que Claude doit faire
 
-- Avant de coder : identifier l'issue concernée (ou proposer d'en créer une) et rappeler son numéro.
+- Avant de coder : identifier l'issue concernée (ou proposer d'en créer une), lancer `scripts/task.sh who` puis `scripts/task.sh start <N>`. Si le script refuse (tâche déjà prise par quelqu'un d'autre), s'arrêter et prévenir : ne pas utiliser `--force` sans accord explicite.
+- Pendant le travail : cocher les cases de l'issue au fur et à mesure ; poster un point d'étape (`note`) quand c'est utile, notamment en fin de session si la tâche n'est pas finie, et un `block` dès qu'on attend quelque chose ou quelqu'un.
+- Si la tâche est abandonnée ou passée à quelqu'un d'autre : `scripts/task.sh release <N> "<raison>"`.
 - Nommer la branche `<type>/<N>-<slug>` avec le numéro d'issue, le commit et la PR selon les conventions ci-dessous, avec `Closes #N` (ou `Refs #N` si la PR ne termine pas l'issue) dans la PR.
-- Ne pas déplacer le statut des issues à la main : les automatismes s'en chargent.
-- Ne jamais pousser directement sur `main`. Ne merger une PR, ni modifier le tableau, les labels ou les milestones, que sur demande explicite.
+- Ne pas déplacer le statut des issues à la main : les automatismes et `scripts/task.sh` s'en chargent.
+- Ne jamais pousser directement sur `main`. Ne merger une PR, ni modifier le tableau, les labels ou les milestones, que sur demande explicite (les commandes du rituel de suivi sont autorisées).
 - Remplir la checklist du modèle de PR (`.github/pull_request_template.md`) honnêtement.
 
 ## 6. Git : branches, commits, PR
