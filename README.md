@@ -29,6 +29,14 @@ L'Action vérifie aussi que chaque PR a un titre [Conventional Commits](https://
 
 Elle a besoin du secret de dépôt `PROJECT_TOKEN` : un *personal access token (classic)* avec les scopes `repo` et `project` (le `GITHUB_TOKEN` par défaut ne peut pas modifier un Project utilisateur). Sans ce secret, la synchronisation est ignorée avec un avertissement.
 
+## Contribuer
+
+Voir [`CONTRIBUTING.md`](CONTRIBUTING.md) et le [code de conduite](CODE_OF_CONDUCT.md). Les évolutions sont consignées dans le [`CHANGELOG.md`](CHANGELOG.md).
+
+## Licence
+
+[MIT](LICENSE).
+
 ## Sommaire (à compléter)
 
 - Présentation et captures
