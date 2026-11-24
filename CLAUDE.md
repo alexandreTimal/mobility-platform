@@ -83,7 +83,7 @@ Le suivi est **évalué** : le tableau doit être tenu à jour du début à la f
 
 ### Règle de base
 
-**Pas de travail sans issue, pas de merge sans PR.** Chaque tâche est une issue ; chaque développement passe par une PR reliée à son issue (`Closes #N`) et relue avant merge.
+**Pas de travail sans issue, pas de merge sans PR.** Chaque tâche est une issue ; chaque développement passe par une PR reliée à son issue (`Closes #N`, ou `Refs #N` si elle ne termine pas l'issue). Pas de relecture obligatoire : **chaque membre est responsable de ses PR** et les merge lui-même une fois les checks verts.
 
 ### Champs du tableau
 
@@ -114,11 +114,27 @@ Le suivi est **évalué** : le tableau doit être tenu à jour du début à la f
 
 ### Cycle de vie d'une issue
 
+Le statut est **mis à jour automatiquement** : ne pas le déplacer à la main (sauf `📋 Backlog` → `🎯 À faire` lors de la planification).
+
+| Événement | Statut | Mécanisme |
+|---|---|---|
+| Issue ou PR ouverte dans le dépôt | ajoutée au tableau en `📋 Backlog` | workflows intégrés du tableau |
+| Premier push sur `<type>/<N>-<slug>` | issue N en `🚧 En cours` (depuis Backlog ou À faire), le pousseur devient responsable si l'issue n'en a pas | Action « Suivi du projet » |
+| PR liée à l'issue | `👀 En revue` | workflow intégré |
+| PR mergée / issue fermée | `✅ Terminé` | workflows intégrés |
+| PR fermée sans merge | issues liées en `🎯 À faire` (depuis En cours ou En revue) | Action « Suivi du projet » |
+| Issue rouverte | `🎯 À faire` | workflow intégré |
+| Issue passée à `✅ Terminé` dans le tableau | l'issue est fermée | workflow intégré |
+
+L'Action vérifie aussi les conventions de PR (check « Conventions de PR ») : titre en Conventional Commits et corps contenant `Closes #N` ou `Refs #N`.
+
+Déroulé :
+
 1. Créer l'issue avec un modèle (`.github/ISSUE_TEMPLATE/` : Fonctionnalité, Bug, Tâche ; les issues vierges sont désactivées). Titre en Conventional Commits : `feat(web): …`, `fix(api): …`, `docs: …`.
-2. Renseigner : responsable, labels type + zone, milestone, priorité, itération, estimation. Statut `📋 Backlog` ou `🎯 À faire`.
-3. Début du travail → statut `🚧 En cours`, créer la branche depuis `main`.
-4. PR ouverte (avec `Closes #N`) → statut `👀 En revue`, demander une relecture à un autre membre.
-5. Merge → l'issue se ferme (via `Closes #N`). Passer le statut à `✅ Terminé` si le workflow automatique du tableau ne l'a pas fait.
+2. Renseigner : labels type + zone, milestone, priorité, itération, estimation (responsable si déjà connu).
+3. Créer la branche depuis `main` **avec le numéro d'issue** (`feat/15-catalogue-web`) et pousser : l'issue passe en cours. Sans numéro dans le nom de branche, rien n'est synchronisé.
+4. Ouvrir la PR avec `Closes #N` (ou `Refs #N`) : l'issue passe en revue.
+5. Une fois les checks verts, l'auteur merge (squash) : l'issue se ferme et passe en terminé.
 
 Commandes utiles (`gh`) :
 
@@ -126,14 +142,15 @@ Commandes utiles (`gh`) :
 gh issue create -R alexandreTimal/mobility-platform --template feature.yml
 gh issue edit <N> --add-assignee @me --add-label "area: web" --milestone "M2 — Follow-up (MVP)"
 gh project item-add 3 --owner alexandreTimal --url <url-issue>
-gh pr create --fill   # puis vérifier que le corps contient "Closes #N"
+gh pr create --fill   # puis vérifier que le corps contient "Closes #N" ou "Refs #N"
 ```
 
 ### Ce que Claude doit faire
 
 - Avant de coder : identifier l'issue concernée (ou proposer d'en créer une) et rappeler son numéro.
-- Nommer la branche, le commit et la PR selon les conventions ci-dessous, avec `Closes #N` dans la PR.
-- Ne jamais pousser directement sur `main`, ne jamais merger une PR soi-même, ne pas modifier le tableau, les labels ou les milestones sans demande explicite.
+- Nommer la branche `<type>/<N>-<slug>` avec le numéro d'issue, le commit et la PR selon les conventions ci-dessous, avec `Closes #N` (ou `Refs #N` si la PR ne termine pas l'issue) dans la PR.
+- Ne pas déplacer le statut des issues à la main : les automatismes s'en chargent.
+- Ne jamais pousser directement sur `main`. Ne merger une PR, ni modifier le tableau, les labels ou les milestones, que sur demande explicite.
 - Remplir la checklist du modèle de PR (`.github/pull_request_template.md`) honnêtement.
 
 ## 6. Git : branches, commits, PR
@@ -142,11 +159,11 @@ gh pr create --fill   # puis vérifier que le corps contient "Closes #N"
 
 Stratégie : **GitHub Flow**.
 
-- `main` : branche principale, toujours déployable, **protégée** : PR obligatoire, 1 approbation, approbations invalidées à chaque nouveau push, conversations résolues obligatoires, ni force-push ni suppression. Les checks CI deviendront obligatoires dès que le pipeline existera (issue #6).
+- `main` : branche principale, toujours déployable, **protégée** : PR obligatoire (sans approbation requise), conversations résolues obligatoires, ni force-push ni suppression. Les checks CI deviendront obligatoires dès que le pipeline existera (issue #6).
 - Merge en **squash uniquement** ; la branche est supprimée après merge. Le titre de la PR devient le message de commit sur `main` : il doit donc respecter Conventional Commits.
 - Branches courtes depuis `main` : `<type>/<N>-<slug>`, ex. `feat/15-catalogue-web`, `fix/42-focus-carte`, `docs/8-modele-donnees`.
 - Commits **Conventional Commits** : `feat(engine): ajoute le départage par GPA`, `fix(web): …`, `docs: …`, `test: …`, `chore: …`, `ci: …`. Messages en français, au présent.
-- Une PR = une issue, petite et relisible, avec `Closes #N`.
+- Une PR = une issue, petite et lisible, avec `Closes #N` (ou `Refs #N`). L'auteur la merge lui-même une fois les checks verts.
 - Tags semver à chaque milestone (`v0.1.0` = M1, `v0.2.0` = M2…), avec `CHANGELOG.md` à jour.
 
 ## 7. Fichiers indispensables (à maintenir)
