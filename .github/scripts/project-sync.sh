@@ -37,7 +37,7 @@ esac
 
 # --- Issues concernées --------------------------------------------------------
 issues=()
-if [[ "$BRANCH" =~ ^[a-z]+/([0-9]+)- ]]; then issues+=("${BASH_REMATCH[1]}"); fi
+if [[ "$BRANCH" =~ ^[a-z0-9]+/([0-9]+)- ]]; then issues+=("${BASH_REMATCH[1]}"); fi
 if [[ "$EVENT" == pull_request && -n "${PR_NUMBER:-}" ]]; then
   while read -r n; do [[ -n "$n" ]] && issues+=("$n"); done < <(
     gh api graphql -F n="$PR_NUMBER" -f o="${REPO%/*}" -f r="${REPO#*/}" \

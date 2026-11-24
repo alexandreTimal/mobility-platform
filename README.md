@@ -10,6 +10,10 @@ Plateforme web et application mobile de répartition de 1 000 étudiants fictifs
 
 Le suivi se fait dans le [GitHub Project](../../projects) lié au dépôt : chaque tâche est une issue, chaque développement passe par une pull request reliée à son issue.
 
+### Prendre une tâche et donner des nouvelles
+
+Avant de commencer une tâche, on la prend avec `scripts/task.sh start <N>` : l'issue est assignée, passe en 🚧 En cours et sa branche est créée. Personne ne travaille ainsi en double. Ensuite, tout est libre : `scripts/task.sh who` (qui fait quoi), `note` (point d'étape), `block` / `unblock`, `release` (lâcher la tâche). Détails dans le [`CLAUDE.md`](CLAUDE.md#rituel-de-suivi-qui-fait-quoi).
+
 ### Automatisation du tableau
 
 | Événement | Statut de l'issue | Géré par |
