@@ -10,15 +10,17 @@ Le sujet demande une branche principale protégée, une PR par développement re
 
 ## Options
 
-1. **GitHub Flow + squash merge, CI obligatoire, approbation non obligatoire**.
-2. GitHub Flow avec une approbation obligatoire du binôme.
+1. **GitHub Flow + squash merge, CI obligatoire, une approbation obligatoire du binôme**.
+2. GitHub Flow sans approbation obligatoire (chaque auteur responsable de sa PR) : choix initial du 2026-11-24, abandonné le 2026-11-25 car contraire à la consigne « relue avant merge » du sujet.
 3. Git Flow (branches `develop`, `release`) : trop lourd pour deux personnes.
 
 ## Décision
 
-GitHub Flow : `main` protégée, branches courtes `<type>/<N>-<slug>`, une PR par issue (`Closes #N`), squash merge avec un titre conventionnel. La vérification `ci` est obligatoire. L'approbation ne l'est pas : chaque auteur est responsable de sa PR (décision d'équipe du 2026-11-24).
+GitHub Flow : `main` protégée, branches courtes `<type>/<N>-<slug>`, une PR par issue (`Closes #N`), squash merge avec un titre conventionnel. La vérification `ci` est obligatoire, ainsi qu'**une approbation** de l'autre membre. Un nouveau push invalide l'approbation. Une fois la PR approuvée et verte, son auteur la merge.
 
 ## Conséquences
 
 - Un commit par PR sur `main`, relié à son issue.
-- Écart assumé avec la consigne « relue avant merge » : à justifier en soutenance. Une relecture reste possible et encouragée (`/bmad-code-review`).
+- Conforme à la consigne « relue avant merge » du sujet ; la relecture est tracée dans chaque PR.
+- Chacun dépend de l'autre pour merger : relire les PR en attente fait partie du travail quotidien. `/bmad-code-review` aide à préparer la relecture, mais l'approbation est humaine.
+- Le propriétaire du dépôt peut techniquement contourner la règle (administrateur) : on ne le fait pas.

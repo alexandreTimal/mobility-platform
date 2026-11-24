@@ -44,6 +44,8 @@ Présente en quelques lignes :
    - pas de tâche en cours → choisir une issue, puis `scripts/task.sh start <N>` (assigne, passe en 🚧 En cours, crée la branche) ;
    - du code en cours → `pnpm test`, puis commit conventionnel ;
    - une PR rouge → lire `gh pr checks` et corriger ;
+   - une PR verte sans approbation → demander la relecture à l'autre membre (approbation obligatoire) ;
+   - des PR de l'autre en attente (`gh pr list --search "review-requested:@me"` ou `gh pr list`) → les relire ;
    - une issue à développer avec l'IA → `/bmad-build #N` dans un contexte neuf.
 4. **Rappels utiles** : `pnpm bootstrap` (installer), `pnpm dev` (lancer), `pnpm test` (tester), seulement s'ils existent dans `package.json`.
 
