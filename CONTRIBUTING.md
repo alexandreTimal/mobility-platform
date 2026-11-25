@@ -49,7 +49,7 @@ Le statut des issues sur le tableau suit tout seul (voir le [README](README.md#a
 | Relecture obligatoire | Oui : **1 approbation** de l'autre membre, invalidée par un nouveau push (voir [ADR-0009](docs/adr/0009-flux-git-pr-relecture.md)) |
 | Conversations résolues avant merge | Oui |
 | Force-push et suppression de la branche | Interdits |
-| Checks CI obligatoires | Dès que le pipeline existe (issue #6) |
+| Checks obligatoires | « Conventions de PR » dès maintenant ; lint, tests et build dès que le pipeline existe (issue #6) |
 
 Relire les PR de l'autre fait partie du travail : on vérifie le fonctionnement, les tests, l'accessibilité et le respect de l'[architecture](docs/technique/architecture.md).
 
