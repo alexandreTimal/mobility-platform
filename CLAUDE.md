@@ -6,7 +6,7 @@ Instructions partagées pour Claude Code (et tout assistant IA) sur ce dépôt. 
 
 ## 1. Le projet en bref
 
-Projet PGE5 (groupes de 3 dans le sujet, réalisé à 2 : Alexandre pour la gestion, le backend, le moteur, les données, le web, la CI et la doc ; Ethan pour l'UI/UX et le mobile ; du 19/10/2026 à fin janvier 2027). On crée une **école d'ingénieurs fictive** qui répartit **1 000 étudiants fictifs** de 4e année sur **100 universités partenaires réelles** via un **moteur de règles configurable**.
+Projet PGE5 (groupes de 3 dans le sujet, réalisé à 2 : Alexandre pour la gestion, le backend et l'API, le moteur, les données, l'espace admin web, la CI et la doc ; Ethan pour l'UI/UX, le front web de l'espace étudiant (catalogue, vœux, carte, affichage du résultat), l'accessibilité (audits, déclaration) et le mobile ; du 19/10/2026 à fin janvier 2027). On crée une **école d'ingénieurs fictive** qui répartit **1 000 étudiants fictifs** de 4e année sur **100 universités partenaires réelles** via un **moteur de règles configurable**.
 
 Livrables : plateforme web + application mobile (même API), documentation utilisateur et technique, audit et déclaration d'accessibilité, dépôt propre avec CI/CD et GitHub Projects, mini charte graphique, jeu de données sourcé, déclaration d'usage de l'IA.
 
