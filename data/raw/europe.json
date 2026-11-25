@@ -1,0 +1,1162 @@
+[
+  {
+    "id": "imperial-college-london",
+    "name": "Imperial College London",
+    "name_local": null,
+    "city": "Londres",
+    "country": "Royaume-Uni",
+    "country_code": "GB",
+    "continent": "europe",
+    "latitude": 51.4983,
+    "longitude": -0.1769,
+    "wikidata_id": "Q189022",
+    "website": "https://www.imperial.ac.uk/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "8",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Imperial College London",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/imperial-college-london"
+    },
+    "engineering_programs": "Faculté d'ingénierie : aéronautique, bio-ingénierie, génie chimique, génie civil et environnemental, informatique (Department of Computing), sciences de la Terre et ingénierie, génie électrique et électronique, matériaux, génie mécanique, ingénierie du design (Dyson School).",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q189022",
+      "coordinates": "https://www.wikidata.org/wiki/Q189022#P625",
+      "website": "https://www.wikidata.org/wiki/Q189022#P856",
+      "engineering_programs": "https://www.imperial.ac.uk/engineering/departments/"
+    },
+    "notes": "Royaume-Uni : hors Erasmus+ 2021-2027 ; l'accord UE–Royaume-Uni finalisé en 2026 prévoit l'association du pays à Erasmus+ en 2027 (source : https://www.gov.uk/government/news/uk-and-eu-finalise-agreement-to-bring-uk-into-erasmus-in-2027)."
+  },
+  {
+    "id": "eth-zurich",
+    "name": "ETH Zurich",
+    "name_local": "ETH Zürich",
+    "city": "Zurich",
+    "country": "Suisse",
+    "country_code": "CH",
+    "continent": "europe",
+    "latitude": 47.3764,
+    "longitude": 8.5479,
+    "wikidata_id": "Q11942",
+    "website": "https://www.ethz.ch/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "12",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "ETH Zurich",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/eth-zurich"
+    },
+    "engineering_programs": "Départements d'architecture, de génie civil, environnemental et géomatique, de sciences et ingénierie des biosystèmes, d'informatique, de technologies de l'information et génie électrique, des matériaux, et de génie mécanique et des procédés.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q11942",
+      "coordinates": "https://www.wikidata.org/wiki/Q11942#P625",
+      "website": "https://www.wikidata.org/wiki/Q11942#P856",
+      "engineering_programs": "https://ethz.ch/en/the-eth-zurich/organisation/departments.html"
+    },
+    "notes": "Coordonnées sur le campus Zentrum (informatique, génie électrique, génie mécanique) ; architecture, génie civil et matériaux sont au campus Hönggerberg, également à Zurich (source : https://en.wikipedia.org/wiki/ETH_Zurich). Suisse : non associée à Erasmus+ 2021-2027 (« solution suisse » compatible, gérée par Movetia) ; association visée pour 2027 via l'accord EUPA signé le 10/11/2025, financement encore soumis au Parlement suisse (source : https://www.sbfi.admin.ch/en/international-mobility-and-cooperation-in-education)."
+  },
+  {
+    "id": "tu-munich",
+    "name": "Technical University of Munich",
+    "name_local": "Technische Universität München",
+    "city": "Garching bei München",
+    "country": "Allemagne",
+    "country_code": "DE",
+    "continent": "europe",
+    "latitude": 48.2644,
+    "longitude": 11.6711,
+    "wikidata_id": "Q157808",
+    "website": "https://www.tum.de/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "25",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Technical University of Munich",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/technical-university-munich"
+    },
+    "engineering_programs": "School of Engineering and Design, en huit départements : aéronautique, espace et géodésie ; architecture ; génie civil et environnemental ; énergie et génie des procédés ; physique de l'ingénieur et calcul ; génie des matériaux ; génie mécanique ; systèmes de mobilité.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q157808",
+      "coordinates": "https://www.wikidata.org/wiki/Q56010779#P625",
+      "website": "https://www.wikidata.org/wiki/Q157808#P856",
+      "engineering_programs": "https://www.ed.tum.de/ed/ueber-uns/departments/"
+    },
+    "notes": "Coordonnées du campus de recherche de Garching (Hochschul- und Forschungszentrum Garching, Q56010779), distinct du siège à Munich (Arcisstraße) ; la School of Computation, Information and Technology est aussi présente à Munich et Heilbronn."
+  },
+  {
+    "id": "epfl",
+    "name": "École polytechnique fédérale de Lausanne",
+    "name_local": null,
+    "city": "Ecublens",
+    "country": "Suisse",
+    "country_code": "CH",
+    "continent": "europe",
+    "latitude": 46.5203,
+    "longitude": 6.5656,
+    "wikidata_id": "Q262760",
+    "website": "https://www.epfl.ch/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "36",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "École Polytechnique Fédérale de Lausanne",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/ecole-polytechnique-federale-de-lausanne"
+    },
+    "engineering_programs": "Écoles d'ingénierie (STI), d'informatique et communications (IC) et d'architecture, génie civil et environnemental (ENAC) : génie électrique et électronique, mécanique, microtechnique, robotique, science des matériaux, énergie, informatique, cybersécurité, science des données, génie civil.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q262760",
+      "coordinates": "https://www.wikidata.org/wiki/Q262760#P625",
+      "website": "https://www.wikidata.org/wiki/Q262760#P856",
+      "engineering_programs": "https://www.epfl.ch/education/master/programs/"
+    },
+    "notes": "Campus situé sur la commune d'Ecublens, en périphérie de Lausanne (Wikidata indique Lausanne en P131). Suisse : non associée à Erasmus+ 2021-2027 (« solution suisse » compatible, gérée par Movetia) ; association visée pour 2027 via l'accord EUPA signé le 10/11/2025, financement encore soumis au Parlement suisse (source : https://www.sbfi.admin.ch/en/international-mobility-and-cooperation-in-education)."
+  },
+  {
+    "id": "ku-leuven",
+    "name": "KU Leuven",
+    "name_local": "Katholieke Universiteit Leuven",
+    "city": "Louvain",
+    "country": "Belgique",
+    "country_code": "BE",
+    "continent": "europe",
+    "latitude": 50.8633,
+    "longitude": 4.6831,
+    "wikidata_id": "Q833670",
+    "website": "https://www.kuleuven.be/english/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "45",
+      "tied": true,
+      "status": "ranked",
+      "the_name": "KU Leuven",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/ku-leuven"
+    },
+    "engineering_programs": "Faculté des sciences de l'ingénieur (Faculty of Engineering Science) : départements d'architecture, de génie chimique, de génie civil, d'informatique, de génie électrique (ESAT), de génie des matériaux et de génie mécanique.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q833670",
+      "coordinates": "https://www.wikidata.org/wiki/Q1522076#P625",
+      "website": "https://www.wikidata.org/wiki/Q833670#P856",
+      "engineering_programs": "https://eng.kuleuven.be/en/research/research-at-the-faculty-of-engineering-science"
+    },
+    "notes": "Coordonnées du château d'Arenberg (Q1522076), sur le campus Arenberg à Heverlee (commune de Louvain), où se trouve la Faculty of Engineering Science ; le siège (University Hall) est au centre de Louvain. La seule coordonnée de Q833670 est marquée obsolète sur Wikidata."
+  },
+  {
+    "id": "tu-delft",
+    "name": "Delft University of Technology",
+    "name_local": "Technische Universiteit Delft",
+    "city": "Delft",
+    "country": "Pays-Bas",
+    "country_code": "NL",
+    "continent": "europe",
+    "latitude": 52.0017,
+    "longitude": 4.3725,
+    "wikidata_id": "Q752663",
+    "website": "https://www.tudelft.nl/en/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "50",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Delft University of Technology",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/delft-university-technology"
+    },
+    "engineering_programs": "Facultés d'aérospatiale, de sciences appliquées, d'architecture et environnement bâti, de génie civil et géosciences, de génie électrique, mathématiques et informatique, de design industriel, de génie mécanique, et de technologie, politique et management.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q752663",
+      "coordinates": "https://www.wikidata.org/wiki/Q752663#P625",
+      "website": "https://www.wikidata.org/wiki/Q752663#P856",
+      "engineering_programs": "https://www.tudelft.nl/en/research/faculties-and-institutes"
+    },
+    "notes": null
+  },
+  {
+    "id": "rwth-aachen",
+    "name": "RWTH Aachen University",
+    "name_local": "RWTH Aachen",
+    "city": "Aix-la-Chapelle",
+    "country": "Allemagne",
+    "country_code": "DE",
+    "continent": "europe",
+    "latitude": 50.7778,
+    "longitude": 6.0781,
+    "wikidata_id": "Q273263",
+    "website": "https://www.rwth-aachen.de/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "90",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "RWTH Aachen University",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/rwth-aachen-university"
+    },
+    "engineering_programs": "Facultés d'architecture, de génie civil, de génie mécanique, de géoressources et génie des matériaux, de génie électrique et technologies de l'information, et d'informatique.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q273263",
+      "coordinates": "https://www.wikidata.org/wiki/Q273263#P625",
+      "website": "https://www.wikidata.org/wiki/Q273263#P856",
+      "engineering_programs": "https://www.rwth-aachen.de/cms/root/wir/Einrichtungen/~oha/Fakultaeten/lidx/1/"
+    },
+    "notes": "Campus répartis dans Aix-la-Chapelle (centre-ville et quartier de Melaten) ; coordonnées sur le centre-ville (Templergraben)."
+  },
+  {
+    "id": "kth",
+    "name": "KTH Royal Institute of Technology",
+    "name_local": "Kungliga Tekniska högskolan",
+    "city": "Stockholm",
+    "country": "Suède",
+    "country_code": "SE",
+    "continent": "europe",
+    "latitude": 59.3472,
+    "longitude": 18.0728,
+    "wikidata_id": "Q854280",
+    "website": "https://www.kth.se/en",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "106",
+      "tied": true,
+      "status": "ranked",
+      "the_name": "KTH Royal Institute of Technology",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/kth-royal-institute-technology"
+    },
+    "engineering_programs": "Cinq écoles : architecture et environnement bâti, génie électrique et informatique, sciences de l'ingénieur, sciences de l'ingénieur en chimie, biotechnologie et santé, génie industriel et management.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q854280",
+      "coordinates": "https://www.wikidata.org/wiki/Q854280#P625",
+      "website": "https://www.wikidata.org/wiki/Q854280#P856",
+      "engineering_programs": "https://www.kth.se/en/om/organisation/kth-s-skolor-1.1071092"
+    },
+    "notes": null
+  },
+  {
+    "id": "dtu",
+    "name": "Technical University of Denmark",
+    "name_local": "Danmarks Tekniske Universitet",
+    "city": "Kongens Lyngby",
+    "country": "Danemark",
+    "country_code": "DK",
+    "continent": "europe",
+    "latitude": 55.7861,
+    "longitude": 12.5234,
+    "wikidata_id": "Q1269766",
+    "website": "https://www.dtu.dk/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "110",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Technical University of Denmark",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/technical-university-denmark"
+    },
+    "engineering_programs": "Départements dont informatique (DTU Compute), génie électrique (DTU Electro), construction (DTU Construct), énergie (DTU Energy), éolien (DTU Wind), génie chimique, bio-ingénierie, spatial (DTU Space) et technologies de l'ingénieur (DTU Engineering Technology).",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q1269766",
+      "coordinates": "https://www.wikidata.org/wiki/Q1269766#P625",
+      "website": "https://www.wikidata.org/wiki/Q1269766#P856",
+      "engineering_programs": "https://www.dtu.dk/english/research/departments-and-groups"
+    },
+    "notes": null
+  },
+  {
+    "id": "polimi",
+    "name": "Politecnico di Milano",
+    "name_local": null,
+    "city": "Milan",
+    "country": "Italie",
+    "country_code": "IT",
+    "continent": "europe",
+    "latitude": 45.478,
+    "longitude": 9.2273,
+    "wikidata_id": "Q392904",
+    "website": "https://www.polimi.it",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "157",
+      "tied": true,
+      "status": "ranked",
+      "the_name": "Politecnico di Milano",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/politecnico-di-milano"
+    },
+    "engineering_programs": "Écoles d'ingénierie industrielle et de l'information, d'ingénierie civile, environnementale et du territoire, d'architecture, urbanisme et ingénierie de la construction, et de design.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q392904",
+      "coordinates": "https://www.wikidata.org/wiki/Q392904#P625",
+      "website": "https://www.wikidata.org/wiki/Q392904#P856",
+      "engineering_programs": "https://www.polimi.it/en/il-politecnico/governance/strutture/schools"
+    },
+    "notes": "Coordonnées sur le campus Leonardo (Città Studi), siège historique ; le campus Bovisa (Milan) accueille aussi l'ingénierie et l'école de design."
+  },
+  {
+    "id": "trinity-college-dublin",
+    "name": "Trinity College Dublin",
+    "name_local": "Coláiste na Tríonóide, Baile Átha Cliath",
+    "city": "Dublin",
+    "country": "Irlande",
+    "country_code": "IE",
+    "continent": "europe",
+    "latitude": 53.3444,
+    "longitude": -6.2577,
+    "wikidata_id": "Q258464",
+    "website": "https://www.tcd.ie/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "171",
+      "tied": true,
+      "status": "ranked",
+      "the_name": "Trinity College Dublin",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/trinity-college-dublin"
+    },
+    "engineering_programs": "Faculté STEM : School of Engineering (génie civil, structurel et environnemental ; génie électronique et électrique ; génie mécanique, de production et biomédical) et School of Computer Science and Statistics.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q258464",
+      "coordinates": "https://www.wikidata.org/wiki/Q258464#P625",
+      "website": "https://www.wikidata.org/wiki/Q258464#P856",
+      "engineering_programs": "https://www.tcd.ie/structure/faculties-and-schools/"
+    },
+    "notes": null
+  },
+  {
+    "id": "aalto",
+    "name": "Aalto University",
+    "name_local": "Aalto-yliopisto",
+    "city": "Espoo",
+    "country": "Finlande",
+    "country_code": "FI",
+    "continent": "europe",
+    "latitude": 60.1861,
+    "longitude": 24.8286,
+    "wikidata_id": "Q300980",
+    "website": "https://www.aalto.fi/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "183",
+      "tied": true,
+      "status": "ranked",
+      "the_name": "Aalto University",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/aalto-university"
+    },
+    "engineering_programs": "Départements d'informatique, de génie électrique et automatique, d'électronique et nano-ingénierie, d'ingénierie de l'information et des communications, d'énergie et génie mécanique, de génie civil, de génie chimique et métallurgique, et de génie industriel.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q300980",
+      "coordinates": "https://www.wikidata.org/wiki/Q300980#P625",
+      "website": "https://www.wikidata.org/wiki/Q300980#P856",
+      "engineering_programs": "https://www.aalto.fi/en/aalto-university/schools-departments-and-units"
+    },
+    "notes": null
+  },
+  {
+    "id": "university-of-twente",
+    "name": "University of Twente",
+    "name_local": "Universiteit Twente",
+    "city": "Enschede",
+    "country": "Pays-Bas",
+    "country_code": "NL",
+    "continent": "europe",
+    "latitude": 52.2425,
+    "longitude": 6.8525,
+    "wikidata_id": "Q1547084",
+    "website": "https://www.utwente.nl/en/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "201",
+      "tied": true,
+      "status": "ranked",
+      "the_name": "University of Twente",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/university-twente"
+    },
+    "engineering_programs": "Facultés de technologie de l'ingénieur (ET), de génie électrique, mathématiques et informatique (EEMCS), de sciences et technologies (TNW) et de géo-information et observation de la Terre (ITC).",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q1547084",
+      "coordinates": "https://www.wikidata.org/wiki/Q1547084#P625",
+      "website": "https://www.wikidata.org/wiki/Q1547084#P856",
+      "engineering_programs": "https://www.utwente.nl/en/about-us/structure/"
+    },
+    "notes": null
+  },
+  {
+    "id": "university-of-luxembourg",
+    "name": "University of Luxembourg",
+    "name_local": "Université du Luxembourg",
+    "city": "Esch-sur-Alzette",
+    "country": "Luxembourg",
+    "country_code": "LU",
+    "continent": "europe",
+    "latitude": 49.5042,
+    "longitude": 5.9484,
+    "wikidata_id": "Q59668",
+    "website": "https://www.uni.lu",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "252",
+      "tied": true,
+      "status": "ranked",
+      "the_name": "University of Luxembourg",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/university-luxembourg"
+    },
+    "engineering_programs": "Faculté des sciences, des technologies et de médecine : départements d'informatique, d'ingénierie, de mathématiques, et de physique et science des matériaux.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q59668",
+      "coordinates": "https://www.wikidata.org/wiki/Q59668#P625",
+      "website": "https://www.wikidata.org/wiki/Q59668#P856",
+      "engineering_programs": "https://www.uni.lu/en/about/organisation/faculties-departments/"
+    },
+    "notes": "Coordonnées sur le campus de Belval (site principal) ; une partie du département d'ingénierie et le siège du SnT sont au campus Kirchberg (Luxembourg-ville)."
+  },
+  {
+    "id": "chalmers",
+    "name": "Chalmers University of Technology",
+    "name_local": "Chalmers tekniska högskola",
+    "city": "Göteborg",
+    "country": "Suède",
+    "country_code": "SE",
+    "continent": "europe",
+    "latitude": 57.6883,
+    "longitude": 11.9767,
+    "wikidata_id": "Q836805",
+    "website": "https://www.chalmers.se/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "257",
+      "tied": true,
+      "status": "ranked",
+      "the_name": "Chalmers University of Technology",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/chalmers-university-technology"
+    },
+    "engineering_programs": "Départements d'architecture et génie civil, de chimie et génie chimique, d'informatique et ingénierie, de génie électrique, de génie mécanique, de microtechnologie et nanosciences, et de management de la technologie.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q836805",
+      "coordinates": "https://www.wikidata.org/wiki/Q836805#P625",
+      "website": "https://www.wikidata.org/wiki/Q836805#P856",
+      "engineering_programs": "https://www.chalmers.se/en/departments/"
+    },
+    "notes": "Deux campus à Göteborg : Johanneberg (coordonnées retenues) et Lindholmen."
+  },
+  {
+    "id": "ntnu",
+    "name": "Norwegian University of Science and Technology",
+    "name_local": "Norges teknisk-naturvitenskapelige universitet",
+    "city": "Trondheim",
+    "country": "Norvège",
+    "country_code": "NO",
+    "continent": "europe",
+    "latitude": 63.4194,
+    "longitude": 10.4025,
+    "wikidata_id": "Q314536",
+    "website": "https://ntnu.no",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "299",
+      "tied": true,
+      "status": "ranked",
+      "the_name": "Norwegian University of Science and Technology",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/norwegian-university-science-and-technology"
+    },
+    "engineering_programs": "Facultés d'ingénierie, de technologies de l'information et génie électrique, et d'architecture et design : informatique, cybernétique, systèmes électroniques, génie mécanique et industriel, technologie marine, génie civil et environnemental, énergie et procédés.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q314536",
+      "coordinates": "https://www.wikidata.org/wiki/Q314536#P625",
+      "website": "https://www.wikidata.org/wiki/Q314536#P856",
+      "engineering_programs": "https://www.ntnu.edu/faculties"
+    },
+    "notes": null
+  },
+  {
+    "id": "tu-wien",
+    "name": "TU Wien",
+    "name_local": "Technische Universität Wien",
+    "city": "Vienne",
+    "country": "Autriche",
+    "country_code": "AT",
+    "continent": "europe",
+    "latitude": 48.1986,
+    "longitude": 16.3708,
+    "wikidata_id": "Q689400",
+    "website": "https://www.tuwien.at/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "301-325",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "TU Wien",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/tu-wien"
+    },
+    "engineering_programs": "Facultés d'architecture et urbanisme, de génie civil et environnemental, de génie mécanique et industriel, de génie électrique et technologies de l'information, d'informatique, de chimie technique, de physique, et de mathématiques et géoinformation.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q689400",
+      "coordinates": "https://www.wikidata.org/wiki/Q689400#P625",
+      "website": "https://www.wikidata.org/wiki/Q689400#P856",
+      "engineering_programs": "https://www.tuwien.at/en/faculties"
+    },
+    "notes": "Coordonnées sur le campus Karlsplatz (bâtiment principal) ; les facultés sont réparties dans le centre de Vienne."
+  },
+  {
+    "id": "university-of-lisbon",
+    "name": "University of Lisbon",
+    "name_local": "Universidade de Lisboa",
+    "city": "Lisbonne",
+    "country": "Portugal",
+    "country_code": "PT",
+    "continent": "europe",
+    "latitude": 38.7367,
+    "longitude": -9.1389,
+    "wikidata_id": "Q1122926",
+    "website": "https://www.ulisboa.pt/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "376-400",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "University of Lisbon",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/university-lisbon"
+    },
+    "engineering_programs": "Instituto Superior Técnico : masters en génie aérospatial, civil, mécanique, chimique, électrique et informatique, en informatique, science des données, génie biomédical, génie des matériaux et architecture navale.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q1122926",
+      "coordinates": "https://www.wikidata.org/wiki/Q1636837#P625",
+      "website": "https://www.wikidata.org/wiki/Q1122926#P856",
+      "engineering_programs": "https://tecnico.ulisboa.pt/en/education/courses/masters-programmes/"
+    },
+    "notes": "Coordonnées de l'Instituto Superior Técnico (campus Alameda, Lisbonne), école d'ingénierie de l'université, distinct de la Cité universitaire ; l'IST a aussi les campus Taguspark (Oeiras) et Tecnológico e Nuclear (Loures). Wikidata ne renseigne pas de ville (P131) pour l'université."
+  },
+  {
+    "id": "tu-graz",
+    "name": "Graz University of Technology",
+    "name_local": "Technische Universität Graz",
+    "city": "Graz",
+    "country": "Autriche",
+    "country_code": "AT",
+    "continent": "europe",
+    "latitude": 47.0689,
+    "longitude": 15.45,
+    "wikidata_id": "Q689775",
+    "website": "https://www.tugraz.at/en/home/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "401-450",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Graz University of Technology",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/graz-university-technology"
+    },
+    "engineering_programs": "Facultés d'architecture, de génie civil, d'informatique et génie biomédical, de génie électrique et de l'information, de génie mécanique et sciences économiques, de chimie technique, génie des procédés et biotechnologie, et de mathématiques, physique et géodésie.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q689775",
+      "coordinates": "https://www.wikidata.org/wiki/Q689775#P625",
+      "website": "https://www.wikidata.org/wiki/Q689775#P856",
+      "engineering_programs": "https://www.tugraz.at/en/faculties-and-institutes/overview-faculties-and-institutes"
+    },
+    "notes": "Trois sites à Graz ; coordonnées sur le campus Alte Technik."
+  },
+  {
+    "id": "polito",
+    "name": "Politecnico di Torino",
+    "name_local": null,
+    "city": "Turin",
+    "country": "Italie",
+    "country_code": "IT",
+    "continent": "europe",
+    "latitude": 45.0631,
+    "longitude": 7.6611,
+    "wikidata_id": "Q392897",
+    "website": "https://www.polito.it",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "401-450",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Polytechnic University of Turin",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/polytechnic-university-turin"
+    },
+    "engineering_programs": "Masters en génie aérospatial, automobile, biomédical, civil, informatique, électrique, électronique, mécanique, mécatronique, en cybersécurité, science des données, énergie et nucléaire, ainsi qu'en architecture et design.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q392897",
+      "coordinates": "https://www.wikidata.org/wiki/Q392897#P625",
+      "website": "https://www.wikidata.org/wiki/Q392897#P856",
+      "engineering_programs": "https://www.polito.it/en/education/master-s-degree-programmes"
+    },
+    "notes": null
+  },
+  {
+    "id": "university-of-porto",
+    "name": "University of Porto",
+    "name_local": "Universidade do Porto",
+    "city": "Porto",
+    "country": "Portugal",
+    "country_code": "PT",
+    "continent": "europe",
+    "latitude": 41.1781,
+    "longitude": -8.5983,
+    "wikidata_id": "Q1422903",
+    "website": "https://www.up.pt",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "401-450",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "University of Porto",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/university-porto"
+    },
+    "engineering_programs": "La Faculté d'ingénierie (FEUP) propose des licences en génie civil, mécanique, chimique, électrotechnique et des ordinateurs, ingénierie informatique, aérospatial, matériaux, environnement, génie industriel et gestion, ainsi qu'en intelligence artificielle et science des données.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q1422903",
+      "coordinates": "https://www.wikidata.org/wiki/Q5428834#P625",
+      "website": "https://www.wikidata.org/wiki/Q1422903#P856",
+      "engineering_programs": "https://www.up.pt/feup/pt/ensino/licenciaturas/oferta-formativa/"
+    },
+    "notes": "Coordonnées de la Faculté d'ingénierie (FEUP, Rua Dr. Roberto Frias), sur le campus d'Asprela au nord de Porto, et non du rectorat situé dans le centre-ville."
+  },
+  {
+    "id": "heriot-watt",
+    "name": "Heriot-Watt University",
+    "name_local": null,
+    "city": "Édimbourg",
+    "country": "Royaume-Uni",
+    "country_code": "GB",
+    "continent": "europe",
+    "latitude": 55.9094,
+    "longitude": -3.3201,
+    "wikidata_id": "Q1610024",
+    "website": "https://www.hw.ac.uk/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "451-500",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Heriot-Watt University",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/heriot-watt-university"
+    },
+    "engineering_programs": "L'École d'ingénierie et de sciences physiques enseigne le génie chimique, le génie mécanique et le génie électrique, électronique et informatique, aux côtés de la biologie, de la chimie et de la physique.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q1610024",
+      "coordinates": "https://www.wikidata.org/wiki/Q1610024#P625",
+      "website": "https://www.wikidata.org/wiki/Q1610024#P856",
+      "engineering_programs": "https://www.hw.ac.uk/about/our-schools/engineering-and-physical-sciences"
+    },
+    "notes": "Coordonnées sur le campus de Riccarton (Currie), en périphérie ouest d'Édimbourg. Le génie civil et l'ingénierie architecturale relèvent de l'École EGIS, l'informatique de l'École MACS (https://www.hw.ac.uk/about/our-schools/mathematical-and-computer-sciences). Royaume-Uni : hors Erasmus+ 2021-2027 ; l'accord UE–Royaume-Uni finalisé en 2026 prévoit l'association du pays à Erasmus+ en 2027 (source : https://www.gov.uk/government/news/uk-and-eu-finalise-agreement-to-bring-uk-into-erasmus-in-2027)."
+  },
+  {
+    "id": "university-of-cyprus",
+    "name": "University of Cyprus",
+    "name_local": "Πανεπιστήμιο Κύπρου",
+    "city": "Nicosie",
+    "country": "Chypre",
+    "country_code": "CY",
+    "continent": "europe",
+    "latitude": 35.1434,
+    "longitude": 33.4081,
+    "wikidata_id": "Q1520608",
+    "website": "https://www.ucy.ac.cy/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "501-550",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "University of Cyprus",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/university-cyprus"
+    },
+    "engineering_programs": "Faculté d'ingénierie : départements d'architecture, de génie électrique et informatique, de génie mécanique et de production, et de génie civil et environnemental ; l'informatique relève du département Computer Science de la Faculté des sciences pures et appliquées.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q1520608",
+      "coordinates": "https://www.openstreetmap.org/relation/19687838",
+      "website": "https://www.wikidata.org/wiki/Q1520608#P856",
+      "engineering_programs": "https://www.ucy.ac.cy/about/administration/faculties-and-departments/?lang=en"
+    },
+    "notes": "Coordonnées de la Faculté d'ingénierie sur le campus principal, quartier d'Aglantzia, rattaché à la municipalité de Nicosie ; les coordonnées Wikidata de l'université tombent hors de ce campus. Programmes : page officielle consultée dans un navigateur le 25/11/2026, le site refusant les requêtes automatisées."
+  },
+  {
+    "id": "university-of-iceland",
+    "name": "University of Iceland",
+    "name_local": "Háskóli Íslands",
+    "city": "Reykjavik",
+    "country": "Islande",
+    "country_code": "IS",
+    "continent": "europe",
+    "latitude": 64.1395,
+    "longitude": -21.9552,
+    "wikidata_id": "Q196559",
+    "website": "https://www.hi.is/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "501-550",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "University of Iceland",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/university-iceland"
+    },
+    "engineering_programs": "L'École d'ingénierie et des sciences naturelles compte les facultés de génie civil et environnemental, de génie électrique et informatique, de génie industriel, génie mécanique et informatique, ainsi que de sciences de la Terre, de sciences de la vie et de l'environnement, et de sciences physiques.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q196559",
+      "coordinates": "https://www.openstreetmap.org/relation/16794092",
+      "website": "https://www.wikidata.org/wiki/Q196559#P856",
+      "engineering_programs": "https://english.hi.is/about-ui/schools-and-faculties/school-engineering-and-natural-sciences"
+    },
+    "notes": "Coordonnées : bâtiment Tæknigarður (Dunhagi 5) sur le campus principal de Reykjavik, qui accueille avec le bâtiment Askja le service étudiant de l'École d'ingénierie et des sciences naturelles (page citée en source des programmes)."
+  },
+  {
+    "id": "tu-hamburg",
+    "name": "Hamburg University of Technology",
+    "name_local": "Technische Universität Hamburg",
+    "city": "Hambourg",
+    "country": "Allemagne",
+    "country_code": "DE",
+    "continent": "europe",
+    "latitude": 53.461,
+    "longitude": 9.9695,
+    "wikidata_id": "Q1060",
+    "website": "https://www.tuhh.de/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "551-600",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Hamburg University of Technology",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/hamburg-university-technology"
+    },
+    "engineering_programs": "Écoles de génie civil ; de génie électrique, informatique et mathématiques ; de génie mécanique ; de génie des procédés et génie chimique ; de sciences du management et technologie (logistique, infrastructures, mobilité) ; de technologie et innovation dans l'éducation.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q1060",
+      "coordinates": "https://www.wikidata.org/wiki/Q1060#P625",
+      "website": "https://www.wikidata.org/wiki/Q1060#P856",
+      "engineering_programs": "https://www.tuhh.de/tuhh/en/schools"
+    },
+    "notes": "Campus unique dans le district de Harburg (Hambourg)."
+  },
+  {
+    "id": "upc-barcelonatech",
+    "name": "Polytechnic University of Catalonia",
+    "name_local": "Universitat Politècnica de Catalunya",
+    "city": "Barcelone",
+    "country": "Espagne",
+    "country_code": "ES",
+    "continent": "europe",
+    "latitude": 41.3893,
+    "longitude": 2.1132,
+    "wikidata_id": "Q1640731",
+    "website": "https://www.upc.edu",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "601-650",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Universitat Politècnica de Catalunya",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/universitat-politecnica-de-catalunya"
+    },
+    "engineering_programs": "Écoles d'ingénierie industrielle, d'informatique, de télécommunications, de génie civil, d'ingénierie aérospatiale (Castelldefels, Terrassa), agroalimentaire, d'études nautiques, de mathématiques et d'architecture, réparties entre Barcelone, Castelldefels, Terrassa, Manresa et Vilanova i la Geltrú.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q1640731",
+      "coordinates": "https://www.wikidata.org/wiki/Q1640731#P625",
+      "website": "https://www.wikidata.org/wiki/Q1640731#P856",
+      "engineering_programs": "https://www.upc.edu/en/the-upc/schools"
+    },
+    "notes": "Université multicampus (Barcelone, Castelldefels, Terrassa, Manresa, Vilanova i la Geltrú…) ; coordonnées sur le Campus Nord à Barcelone."
+  },
+  {
+    "id": "upv-valencia",
+    "name": "Polytechnic University of Valencia",
+    "name_local": "Universitat Politècnica de València",
+    "city": "Valence",
+    "country": "Espagne",
+    "country_code": "ES",
+    "continent": "europe",
+    "latitude": 39.4809,
+    "longitude": -0.3411,
+    "wikidata_id": "Q2003976",
+    "website": "https://www.upv.es/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "701-800",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Polytechnic University of Valencia",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/polytechnic-university-valencia"
+    },
+    "engineering_programs": "Le campus de Valence regroupe les écoles d'informatique, de télécommunications, de génie industriel, de génie civil, d'ingénierie aérospatiale et design industriel, de génie agronomique, de géodésie, du bâtiment et d'architecture ; écoles polytechniques à Alcoy et Gandia.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q2003976",
+      "coordinates": "https://www.wikidata.org/wiki/Q2003976#P625",
+      "website": "https://www.wikidata.org/wiki/Q2003976#P856",
+      "engineering_programs": "https://www.upv.es/organizacion/escuelas-facultades/index-en.html"
+    },
+    "notes": "Coordonnées sur le campus de Vera (Valence) ; autres campus à Alcoy et Gandia."
+  },
+  {
+    "id": "ntua",
+    "name": "National Technical University of Athens",
+    "name_local": "Εθνικό Μετσόβιο Πολυτεχνείο",
+    "city": "Zografou",
+    "country": "Grèce",
+    "country_code": "GR",
+    "continent": "europe",
+    "latitude": 37.978,
+    "longitude": 23.7821,
+    "wikidata_id": "Q1640726",
+    "website": "https://www.ntua.gr/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "801-1000",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "National Technical University of Athens",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/national-technical-university-athens"
+    },
+    "engineering_programs": "Neuf écoles : génie civil ; génie mécanique ; génie électrique et informatique ; architecture ; génie chimique ; génie rural, topographie et géoinformatique ; génie minier et métallurgique ; architecture navale et génie maritime ; sciences mathématiques et physiques appliquées.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q1640726",
+      "coordinates": "https://www.openstreetmap.org/relation/3720800",
+      "website": "https://www.wikidata.org/wiki/Q1640726#P856",
+      "engineering_programs": "https://www.ntua.gr/en/schools"
+    },
+    "notes": "Coordonnées du campus de Zografou (Polytechneioupoli), commune de Zografou dans l'agglomération d'Athènes, qui accueille toutes les écoles sauf l'architecture ; celle-ci reste au complexe historique de Patission (centre d'Athènes), désigné par les coordonnées Wikidata de l'université."
+  },
+  {
+    "id": "riga-technical-university",
+    "name": "Riga Technical University",
+    "name_local": "Rīgas Tehniskā universitāte",
+    "city": "Riga",
+    "country": "Lettonie",
+    "country_code": "LV",
+    "continent": "europe",
+    "latitude": 56.9524,
+    "longitude": 24.0806,
+    "wikidata_id": "Q411895",
+    "website": "https://rtu.lv",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "801-1000",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Riga Technical University",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/riga-technical-university"
+    },
+    "engineering_programs": "Facultés de génie civil et mécanique (mécanique, mécatronique, transports, maintenance aéronautique, génie médical, énergétique, génie civil, géodésie), d'informatique, technologies de l'information et énergie, et des sciences naturelles et technologies ; Institut d'architecture et design.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q411895",
+      "coordinates": "https://www.openstreetmap.org/way/221635286",
+      "website": "https://www.wikidata.org/wiki/Q411895#P856",
+      "engineering_programs": "https://www.rtu.lv/en/university/structure-and-administration/faculties"
+    },
+    "notes": "Coordonnées du campus de Ķīpsala (Riga), où les unités ont été regroupées ; l'administration a quitté en décembre 2021 le bâtiment de Kaļķu iela 1 (vieille ville) que désignent encore les coordonnées Wikidata (Wikipédia en letton). Structure des facultés réorganisée récemment : page officielle consultée dans un navigateur le 25/11/2026, le site refusant les requêtes automatisées."
+  },
+  {
+    "id": "taltech",
+    "name": "Tallinn University of Technology",
+    "name_local": "Tallinna Tehnikaülikool",
+    "city": "Tallinn",
+    "country": "Estonie",
+    "country_code": "EE",
+    "continent": "europe",
+    "latitude": 59.3954,
+    "longitude": 24.6647,
+    "wikidata_id": "Q604487",
+    "website": "https://taltech.ee/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "801-1000",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Tallinn University of Technology",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/tallinn-university-technology"
+    },
+    "engineering_programs": "School of Engineering : génie civil et architecture, génie électrique et mécatronique, technologie énergétique, matériaux et technologies environnementales, génie mécanique et industriel ; School of Information Technologies : systèmes informatiques, science du logiciel, technologies de la santé.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q604487",
+      "coordinates": "https://www.openstreetmap.org/relation/1205174",
+      "website": "https://www.wikidata.org/wiki/Q604487#P856",
+      "engineering_programs": "https://taltech.ee/en/school-of-engineering"
+    },
+    "notes": "Wikidata ne fournit pas de coordonnées : centre de l'emprise du campus de Mustamäe (Ehitajate tee 5, Tallinn) d'après OpenStreetMap. Collèges régionaux à Kuressaare et en Virumaa. Départements de la School of Information Technologies : https://taltech.ee/en/school-of-information-technologies. Programmes : page officielle consultée dans un navigateur le 25/11/2026, le site refusant les requêtes automatisées."
+  },
+  {
+    "id": "university-of-ljubljana",
+    "name": "University of Ljubljana",
+    "name_local": "Univerza v Ljubljani",
+    "city": "Ljubljana",
+    "country": "Slovénie",
+    "country_code": "SI",
+    "continent": "europe",
+    "latitude": 46.05,
+    "longitude": 14.4691,
+    "wikidata_id": "Q1377",
+    "website": "https://www.uni-lj.si/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "801-1000",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "University of Ljubljana",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/university-ljubljana"
+    },
+    "engineering_programs": "Facultés de génie électrique, d'informatique et sciences de l'information, de génie mécanique, de génie civil et géodésie, de chimie et technologie chimique, d'études maritimes et transports, de sciences naturelles et ingénierie, et d'architecture.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q1377",
+      "coordinates": "https://www.openstreetmap.org/way/237989287",
+      "website": "https://www.wikidata.org/wiki/Q1377#P856",
+      "engineering_programs": "https://www.uni-lj.si/en/university/member-faculties-and-academies-ul"
+    },
+    "notes": "Facultés d'ingénierie dispersées dans Ljubljana : coordonnées de la Faculté d'informatique et des sciences de l'information (Večna pot 113), à la même adresse que la Faculté de chimie et de technologie chimique ; les coordonnées Wikidata de l'université désignent le centre-ville (Kongresni trg 12)."
+  },
+  {
+    "id": "university-of-malta",
+    "name": "University of Malta",
+    "name_local": "L-Università ta' Malta",
+    "city": "Msida",
+    "country": "Malte",
+    "country_code": "MT",
+    "continent": "europe",
+    "latitude": 35.9025,
+    "longitude": 14.4833,
+    "wikidata_id": "Q426045",
+    "website": "https://www.um.edu.mt/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "801-1000",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "University of Malta",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/university-malta"
+    },
+    "engineering_programs": "La Faculté d'ingénierie compte les départements de génie électrique, systèmes électroniques, génie industriel et de production, génie mécanique, métallurgie et matériaux, et systèmes et automatique.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q426045",
+      "coordinates": "https://www.wikidata.org/wiki/Q426045#P625",
+      "website": "https://www.wikidata.org/wiki/Q426045#P856",
+      "engineering_programs": "https://www.um.edu.mt/eng/ourdepartments/"
+    },
+    "notes": "Campus principal à Msida. Une Faculté des TIC distincte couvre l'intelligence artificielle, l'informatique, le génie informatique et des communications (https://www.um.edu.mt/ict/ourdepartments/)."
+  },
+  {
+    "id": "ctu-prague",
+    "name": "Czech Technical University in Prague",
+    "name_local": "České vysoké učení technické v Praze",
+    "city": "Prague",
+    "country": "Tchéquie",
+    "country_code": "CZ",
+    "continent": "europe",
+    "latitude": 50.1022,
+    "longitude": 14.3885,
+    "wikidata_id": "Q1329478",
+    "website": "https://cvut.cz",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "1001-1200",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Czech Technical University in Prague",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/czech-technical-university-prague"
+    },
+    "engineering_programs": "Huit facultés : génie civil, génie mécanique, génie électrique, sciences nucléaires et ingénierie physique, architecture, sciences des transports, ingénierie biomédicale et technologies de l'information.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q1329478",
+      "coordinates": "https://www.wikidata.org/wiki/Q1329478#P625",
+      "website": "https://www.wikidata.org/wiki/Q1329478#P856",
+      "engineering_programs": "https://www.cvut.cz/en/faculties-institutes-and-other-parts"
+    },
+    "notes": "Coordonnées sur le campus de Dejvice (Prague 6), où se trouve notamment la Faculté de génie électrique."
+  },
+  {
+    "id": "ktu",
+    "name": "Kaunas University of Technology",
+    "name_local": "Kauno technologijos universitetas",
+    "city": "Kaunas",
+    "country": "Lituanie",
+    "country_code": "LT",
+    "continent": "europe",
+    "latitude": 54.9029,
+    "longitude": 23.9559,
+    "wikidata_id": "Q625158",
+    "website": "https://ktu.edu/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "1001-1200",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Kaunas University of Technology",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/kaunas-university-technology"
+    },
+    "engineering_programs": "Facultés de génie civil et architecture, de technologie chimique, de génie électrique et électronique, d'informatique, de génie mécanique et design, de mathématiques et sciences naturelles ; faculté des technologies et du commerce à Panevėžys.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q625158",
+      "coordinates": "https://www.openstreetmap.org/way/851646567",
+      "website": "https://www.wikidata.org/wiki/Q625158#P856",
+      "engineering_programs": "https://en.ktu.edu/faculties/"
+    },
+    "notes": "Wikidata ne fournit pas de coordonnées pour l'université : coordonnées du campus de la rue Studentų (Kaunas, OpenStreetMap), où se trouvent les facultés de génie civil et architecture, de génie électrique et électronique, d'informatique et de génie mécanique ; la Faculté de technologie chimique est rue Radvilėnų et le siège au K. Donelaičio g. 73 (centre-ville)."
+  },
+  {
+    "id": "upm-madrid",
+    "name": "Technical University of Madrid",
+    "name_local": "Universidad Politécnica de Madrid",
+    "city": "Madrid",
+    "country": "Espagne",
+    "country_code": "ES",
+    "continent": "europe",
+    "latitude": 40.4492,
+    "longitude": -3.7281,
+    "wikidata_id": "Q25864",
+    "website": "https://www.upm.es/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "1001-1200",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Technical University of Madrid",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/technical-university-madrid"
+    },
+    "engineering_programs": "Écoles d'ingénieurs en génie civil, télécommunications, génie industriel, aéronautique et espace, génie naval, mines et énergie, agronomie, forêts, topographie et informatique, ainsi qu'architecture et bâtiment.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q25864",
+      "coordinates": "https://www.wikidata.org/wiki/Q25864#P625",
+      "website": "https://www.wikidata.org/wiki/Q25864#P856",
+      "engineering_programs": "https://www.upm.es/UPM/Centros"
+    },
+    "notes": "Écoles réparties entre quatre campus (Ciudad Universitaria, Madrid Ciudad, Campus Sur, Montegancedo) ; coordonnées sur le campus de la Ciudad Universitaria (Madrid)."
+  },
+  {
+    "id": "bme-budapest",
+    "name": "Budapest University of Technology and Economics",
+    "name_local": "Budapesti Műszaki és Gazdaságtudományi Egyetem",
+    "city": "Budapest",
+    "country": "Hongrie",
+    "country_code": "HU",
+    "continent": "europe",
+    "latitude": 47.4798,
+    "longitude": 19.0561,
+    "wikidata_id": "Q1186843",
+    "website": "https://bme.hu",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "1401-1600",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Budapest University of Technology and Economics",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/budapest-university-technology-and-economics"
+    },
+    "engineering_programs": "Huit facultés : génie civil, génie mécanique, architecture, technologie chimique et biotechnologie, génie électrique et informatique, ingénierie des transports et des véhicules, sciences naturelles, sciences économiques et sociales.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q1186843",
+      "coordinates": "https://www.wikidata.org/wiki/Q1186843#P625",
+      "website": "https://www.wikidata.org/wiki/Q1186843#P856",
+      "engineering_programs": "https://www.bme.hu/en/faculties"
+    },
+    "notes": null
+  },
+  {
+    "id": "stu-bratislava",
+    "name": "Slovak University of Technology in Bratislava",
+    "name_local": "Slovenská technická univerzita v Bratislave",
+    "city": "Bratislava",
+    "country": "Slovaquie",
+    "country_code": "SK",
+    "continent": "europe",
+    "latitude": 48.1519,
+    "longitude": 17.073,
+    "wikidata_id": "Q1778355",
+    "website": "https://www.stuba.sk/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "1401-1600",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Slovak University of Technology in Bratislava",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/slovak-university-technology-bratislava"
+    },
+    "engineering_programs": "Facultés de génie civil, de génie mécanique, de génie électrique et technologies de l'information, de technologie chimique et alimentaire, d'architecture et design, d'informatique et technologies de l'information, et de sciences des matériaux (à Trnava).",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q1778355",
+      "coordinates": "https://www.wikidata.org/wiki/Q12765702#P625",
+      "website": "https://www.wikidata.org/wiki/Q1778355#P856",
+      "engineering_programs": "https://www.stuba.sk/en/university/organisational-structure/faculties-and-the-university-institute"
+    },
+    "notes": "Coordonnées de la Faculté de génie électrique et des technologies de l'information (Mlynská dolina, Bratislava IV), voisine de la Faculté d'informatique (FIIT, Wikidata Q5428992) ; les coordonnées Wikidata de l'université désignent un bâtiment de la rue Vazovova, dans le centre-ville. Faculté des sciences des matériaux à Trnava."
+  },
+  {
+    "id": "warsaw-university-of-technology",
+    "name": "Warsaw University of Technology",
+    "name_local": "Politechnika Warszawska",
+    "city": "Varsovie",
+    "country": "Pologne",
+    "country_code": "PL",
+    "continent": "europe",
+    "latitude": 52.2203,
+    "longitude": 21.0106,
+    "wikidata_id": "Q1718656",
+    "website": "https://www.pw.edu.pl/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "1401-1600",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Warsaw University of Technology",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/warsaw-university-technology"
+    },
+    "engineering_programs": "19 facultés, dont électronique et technologies de l'information, génie électrique, mécanique (énergétique et aéronautique, technologique), mécatronique, automobiles, génie civil, environnement, chimie, matériaux, géodésie, transports, mathématiques et sciences de l'information.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q1718656",
+      "coordinates": "https://www.wikidata.org/wiki/Q1718656#P625",
+      "website": "https://www.wikidata.org/wiki/Q1718656#P856",
+      "engineering_programs": "https://www.pw.edu.pl/uczelnia/terazniejszosc"
+    },
+    "notes": "Coordonnées du campus central (Śródmieście, Varsovie) ; les facultés de génie mécanique et production, automobiles, mécatronique et matériaux sont sur le campus sud (Mokotów). Filiale à Płock."
+  },
+  {
+    "id": "upb-bucharest",
+    "name": "National University of Science and Technology Politehnica Bucharest",
+    "name_local": "Universitatea Națională de Știință și Tehnologie Politehnica București",
+    "city": "Bucarest",
+    "country": "Roumanie",
+    "country_code": "RO",
+    "continent": "europe",
+    "latitude": 44.4383,
+    "longitude": 26.0514,
+    "wikidata_id": "Q1465448",
+    "website": "https://upb.ro/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "1601-1800",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Polytechnic University of Bucharest",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/polytechnic-university-bucharest"
+    },
+    "engineering_programs": "Quinze facultés, dont automatique et informatique, électronique, télécommunications et technologies de l'information, génie électrique, énergétique, génie mécanique et mécatronique, aérospatial, transports, génie industriel et robotique, ingénierie médicale, science des matériaux.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q1465448",
+      "coordinates": "https://www.wikidata.org/wiki/Q1465448#P625",
+      "website": "https://www.wikidata.org/wiki/Q1465448#P856",
+      "engineering_programs": "https://upb.ro/en/faculties/"
+    },
+    "notes": "Nom roumain officiel relevé sur upb.ro ; le nom anglais en est la traduction. Wikidata et Wikipédia utilisent encore « Politehnica University of Bucharest », THE « Polytechnic University of Bucharest »."
+  },
+  {
+    "id": "university-of-zagreb",
+    "name": "University of Zagreb",
+    "name_local": "Sveučilište u Zagrebu",
+    "city": "Zagreb",
+    "country": "Croatie",
+    "country_code": "HR",
+    "continent": "europe",
+    "latitude": 45.8009,
+    "longitude": 15.9713,
+    "wikidata_id": "Q675848",
+    "website": "https://www.unizg.hr/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "1201-1400",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "University of Zagreb",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/university-zagreb"
+    },
+    "engineering_programs": "Facultés techniques dont génie électrique et informatique (FER), génie mécanique et architecture navale, génie civil, génie chimique et technologie, géodésie, mines, géologie et génie pétrolier, transports, architecture, organisation et informatique.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q675848",
+      "coordinates": "https://www.wikidata.org/wiki/Q3514081#P625",
+      "website": "https://www.wikidata.org/wiki/Q675848#P856",
+      "engineering_programs": "https://www.unizg.hr/homepage/about-university/constituent-units/faculties/"
+    },
+    "notes": "Facultés dispersées : coordonnées de la Faculté de génie électrique et d'informatique (FER, Unska 3, Zagreb), et non du bâtiment du centre-ville (Trg Republike Hrvatske 14) retenu par Wikidata pour l'université."
+  }
+]

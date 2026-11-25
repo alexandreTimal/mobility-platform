@@ -1,0 +1,292 @@
+[
+  {
+    "id": "university-of-cape-town",
+    "name": "University of Cape Town",
+    "name_local": null,
+    "city": "Le Cap",
+    "country": "Afrique du Sud",
+    "country_code": "ZA",
+    "continent": "africa",
+    "latitude": -33.9575,
+    "longitude": 18.4606,
+    "wikidata_id": "Q951305",
+    "website": "https://www.uct.ac.za/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "147",
+      "tied": true,
+      "status": "ranked",
+      "the_name": "University of Cape Town",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/university-cape-town"
+    },
+    "engineering_programs": "Faculté d'ingénierie et de l'environnement bâti : génie chimique, civil, électrique (dont électrique et informatique, mécatronique) et mécanique ; architecture, urbanisme et géomatique ; économie et gestion de la construction.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q951305",
+      "coordinates": "https://www.wikidata.org/wiki/Q951305#P625",
+      "website": "https://www.wikidata.org/wiki/Q951305#P856",
+      "engineering_programs": "https://ebe.uct.ac.za/departments/departmental-overview"
+    },
+    "notes": "Coordonnées = Upper Campus (Rondebosch), où se trouve le New Engineering Building qui abrite la faculté d'ingénierie."
+  },
+  {
+    "id": "university-of-the-witwatersrand",
+    "name": "University of the Witwatersrand",
+    "name_local": null,
+    "city": "Johannesburg",
+    "country": "Afrique du Sud",
+    "country_code": "ZA",
+    "continent": "africa",
+    "latitude": -26.1916,
+    "longitude": 28.027,
+    "wikidata_id": "Q534643",
+    "website": "https://www.wits.ac.za/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "301-325",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "University of the Witwatersrand",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/university-witwatersrand"
+    },
+    "engineering_programs": "Faculté d'ingénierie et de l'environnement bâti : génie civil et environnemental, chimique et métallurgique, électrique et de l'information, mécanique, industriel et aéronautique, génie minier ; architecture et urbanisme ; économie et gestion de la construction.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q534643",
+      "coordinates": "https://www.openstreetmap.org/way/766025869",
+      "website": "https://www.wikidata.org/wiki/Q534643#P856",
+      "engineering_programs": "https://www.wits.ac.za/ebe/schools/"
+    },
+    "notes": "La faculté d'ingénierie (EBE) est sur le West Campus (Braamfontein), contigu à l'East Campus de l'autre côté de l'autoroute M1 ; les coordonnées Wikidata (East Campus) sont remplacées par celles de l'ARM Building (ex-Chamber of Mines), qui abrite la School of Mining Engineering."
+  },
+  {
+    "id": "cairo-university",
+    "name": "Cairo University",
+    "name_local": "جامعة القاهرة",
+    "city": "Gizeh",
+    "country": "Égypte",
+    "country_code": "EG",
+    "continent": "africa",
+    "latitude": 30.026,
+    "longitude": 31.2118,
+    "wikidata_id": "Q194445",
+    "website": "https://cu.edu.eg/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "801-1000",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Cairo University",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/cairo-university"
+    },
+    "engineering_programs": "Faculté d'ingénierie (14 départements) : génie aérospatial, architecture, génie biomédical, chimique, informatique, énergie électrique, électronique et télécommunications, conception mécanique et production, énergie mécanique, mines et pétrole, structures, travaux publics, irrigation et hydraulique.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q194445",
+      "coordinates": "https://www.wikidata.org/wiki/Q12236106#P625",
+      "website": "https://www.wikidata.org/wiki/Q194445#P856",
+      "engineering_programs": "https://web.archive.org/web/20210125121321/http://eng.cu.edu.eg/ar/departments/"
+    },
+    "notes": "Coordonnées = Faculté d'ingénierie (élément Wikidata Q12236106), sur le campus principal de Gizeh, de l'autre côté du Nil par rapport au Caire. Le site de la faculté (eng.cu.edu.eg) ne répondait pas le 25/11/2026, ni à curl ni dans un navigateur : départements d'après sa page officielle archivée par Internet Archive le 25/01/2021 (liste reprise à l'identique par Wikipédia en arabe)."
+  },
+  {
+    "id": "um6p",
+    "name": "Mohammed VI Polytechnic University",
+    "name_local": "Université Mohammed VI Polytechnique",
+    "city": "Ben Guerir",
+    "country": "Maroc",
+    "country_code": "MA",
+    "continent": "africa",
+    "latitude": 32.2183,
+    "longitude": -7.9357,
+    "wikidata_id": "Q61931430",
+    "website": "https://www.um6p.ma/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "376-400",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "University Mohammed VI Polytechnic",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/university-mohammed-vi-polytechnic"
+    },
+    "engineering_programs": "Cycles d'ingénieur en informatique, en management industriel et en physique appliquée, prépa intégrée en systèmes agro-environnementaux, masters en génie électrique (énergies renouvelables, réseaux intelligents) et technologies industrielles ; architecture.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q61931430",
+      "coordinates": "https://www.wikidata.org/wiki/Q61931430#P625",
+      "website": "https://www.wikidata.org/wiki/Q61931430#P856",
+      "engineering_programs": "https://um6p.ma/en/education/schools-and-departments"
+    },
+    "notes": "Campus principal de Ben Guerir ; autres campus à Rabat (Salé) et Laâyoune. Le College of Computing a aussi une antenne à Rabat. Wikidata donne deux valeurs P625 quasi identiques, toutes deux à Ben Guerir ; la première est retenue. La page des programmes est générée en JavaScript (consultée dans un navigateur)."
+  },
+  {
+    "id": "tunis-el-manar",
+    "name": "Tunis El Manar University",
+    "name_local": "Université de Tunis El Manar",
+    "city": "Tunis",
+    "country": "Tunisie",
+    "country_code": "TN",
+    "continent": "africa",
+    "latitude": 36.8314,
+    "longitude": 10.1472,
+    "wikidata_id": "Q3551684",
+    "website": "http://www.utm.rnu.tn/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "801-1000",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "University of Tunis El Manar",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/university-tunis-el-manar"
+    },
+    "engineering_programs": "École nationale d'ingénieurs de Tunis (ENIT) : diplômes d'ingénieur en génie civil, électrique, hydraulique et environnement, industriel et mécanique, informatique, télécommunications, modélisation pour l'industrie et les services, techniques avancées.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q3551684",
+      "coordinates": "https://www.wikidata.org/wiki/Q3578098#P625",
+      "website": "https://www.wikidata.org/wiki/Q3551684#P856",
+      "engineering_programs": "https://enit.rnu.tn/formation/"
+    },
+    "notes": "Remplace l'École nationale d'ingénieurs de Tunis (ENIT), qui en fait partie, absente du classement THE 2027. Coordonnées = ENIT (élément Wikidata Q3578098), campus universitaire Farhat Hached d'El Manar. Le site de l'université (Wikidata P856, également cité par Wikipédia) ne répondait pas le 25/11/2026, ni à curl ni dans un navigateur ; URL conservée. Le site de l'ENIT s'ouvre dans un navigateur mais curl rejette son certificat TLS."
+  },
+  {
+    "id": "ucad",
+    "name": "Cheikh Anta Diop University",
+    "name_local": "Université Cheikh-Anta-Diop de Dakar",
+    "city": "Dakar",
+    "country": "Sénégal",
+    "country_code": "SN",
+    "continent": "africa",
+    "latitude": 14.681,
+    "longitude": -17.4664,
+    "wikidata_id": "Q671363",
+    "website": "https://www.ucad.sn/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "2001+",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Université Cheikh Anta Diop de Dakar (UCAD)",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/universite-cheikh-anta-diop-de-dakar-ucad"
+    },
+    "engineering_programs": "École supérieure polytechnique (ESP) : départements de génie chimique et biologie appliquée, génie civil, génie électrique, génie informatique et génie mécanique ; diplômes d'ingénieur de conception, d'ingénieur technologue, licences et masters.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q671363",
+      "coordinates": "https://www.wikidata.org/wiki/Q16649020#P625",
+      "website": "https://www.wikidata.org/wiki/Q671363#P856",
+      "engineering_programs": "https://esp.sn/formations"
+    },
+    "notes": "Coordonnées = École supérieure polytechnique (élément Wikidata Q16649020), sur le campus de Dakar-Fann (Corniche Ouest), à environ 700 m du point Wikidata de l'université (Faculté des lettres)."
+  },
+  {
+    "id": "inp-hb",
+    "name": "Félix Houphouët-Boigny National Polytechnic Institute",
+    "name_local": "Institut national polytechnique Félix Houphouët-Boigny",
+    "city": "Yamoussoukro",
+    "country": "Côte d'Ivoire",
+    "country_code": "CI",
+    "continent": "africa",
+    "latitude": 6.8648,
+    "longitude": -5.2385,
+    "wikidata_id": "Q3152449",
+    "website": "https://inphb.edu.ci/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": null,
+      "tied": false,
+      "status": "reporter",
+      "the_name": "Institut national polytechnique Félix Houphouët-Boigny",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/institut-national-polytechnique-felix-houphouet-boigny"
+    },
+    "engineering_programs": "Écoles d'ingénieurs : École supérieure d'industrie (industrie, numérique), École supérieure des travaux publics (génie civil, infrastructures, urbanisme), des mines et de géologie, de chimie, du pétrole et de l'énergie, de l'aéronautique et du spatial.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q3152449",
+      "coordinates": "https://www.wikidata.org/wiki/Q3152449#P625",
+      "website": "https://www.wikidata.org/wiki/Q3152449#P856",
+      "engineering_programs": "https://inphb.edu.ci/nos-ecoles/"
+    },
+    "notes": "Plusieurs sites à Yamoussoukro : les coordonnées Wikidata sont sur le Site Sud (École supérieure des travaux publics, École supérieure des mines et de géologie) ; l'École supérieure d'industrie et les écoles du pétrole et de l'aéronautique sont sur le Site Centre. Site : Wikidata (P856) indique https://new-website.inphb.ci/, injoignable lors de notre contrôle (25/11/2026) ; https://inphb.edu.ci/, site officiel actuel, est retenu."
+  },
+  {
+    "id": "knust",
+    "name": "Kwame Nkrumah University of Science and Technology",
+    "name_local": null,
+    "city": "Kumasi",
+    "country": "Ghana",
+    "country_code": "GH",
+    "continent": "africa",
+    "latitude": 6.6849,
+    "longitude": -1.5705,
+    "wikidata_id": "Q1654025",
+    "website": "https://www.knust.edu.gh/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "1201-1400",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Kwame Nkrumah University of Science and Technology",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/kwame-nkrumah-university-science-and-technology"
+    },
+    "engineering_programs": "College of Engineering : génie civil, géologique, géomatique, pétrolier, informatique (computer engineering), électrique/électronique, télécommunications, agricole et biosystèmes, chimique, pétrochimique, maritime, industriel, automobile, mécanique et aérospatial.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q1654025",
+      "coordinates": "https://www.wikidata.org/wiki/Q1654025#P625",
+      "website": "https://www.wikidata.org/wiki/Q1654025#P856",
+      "engineering_programs": "https://coe.knust.edu.gh/undergraduate-programmes"
+    },
+    "notes": "Wikidata donne deux valeurs P625 (6.684903, -1.570514 et 6.67868, -1.56063), distantes d'environ 1,3 km, toutes deux sur le campus de Kumasi ; la première est retenue. Le point se trouve dans le district municipal d'Oforikrom (agglomération de Kumasi)."
+  },
+  {
+    "id": "university-of-nairobi",
+    "name": "University of Nairobi",
+    "name_local": null,
+    "city": "Nairobi",
+    "country": "Kenya",
+    "country_code": "KE",
+    "continent": "africa",
+    "latitude": -1.2797,
+    "longitude": 36.8165,
+    "wikidata_id": "Q649998",
+    "website": "https://www.uonbi.ac.ke/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "1601-1800",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "University of Nairobi",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/university-nairobi"
+    },
+    "engineering_programs": "Faculté d'ingénierie : départements de génie civil et de la construction, génie électrique et de l'information, génie de l'environnement et des biosystèmes, technologies géospatiales et spatiales, génie mécanique.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q649998",
+      "coordinates": "https://www.wikidata.org/wiki/Q649998#P625",
+      "website": "https://www.wikidata.org/wiki/Q649998#P856",
+      "engineering_programs": "https://engineering.uonbi.ac.ke/"
+    },
+    "notes": "Coordonnées = Main Campus (Great Court) ; les bâtiments d'ingénierie (Mechanical Engineering Building, College of Architecture and Engineering) sont à environ 150 m dans OpenStreetMap. Les sites uonbi.ac.ke s'ouvrent dans un navigateur mais curl rejette leur certificat TLS (25/11/2026)."
+  },
+  {
+    "id": "university-of-lagos",
+    "name": "University of Lagos",
+    "name_local": null,
+    "city": "Lagos",
+    "country": "Nigeria",
+    "country_code": "NG",
+    "continent": "africa",
+    "latitude": 6.5167,
+    "longitude": 3.3861,
+    "wikidata_id": "Q1782980",
+    "website": "https://unilag.edu.ng/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "801-1000",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "University of Lagos",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/university-lagos"
+    },
+    "engineering_programs": "Faculté d'ingénierie : génie biomédical, chimique, pétrolier et gazier, civil et environnemental, électrique et informatique (computer engineering), mécanique, métallurgie et matériaux, ingénierie des systèmes, topographie et géo-informatique.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q1782980",
+      "coordinates": "https://www.wikidata.org/wiki/Q1782980#P625",
+      "website": "https://www.wikidata.org/wiki/Q1782980#P856",
+      "engineering_programs": "https://engineering.unilag.edu.ng/"
+    },
+    "notes": "Coordonnées sur le campus principal d'Akoka (Yaba), où se trouve aussi la faculté d'ingénierie (OpenStreetMap node/6121119459, dans l'enceinte de l'université). La médecine est sur un campus distinct à Idi-Araba. Site : http://www.unilag.edu.ng/ (Wikidata) redirige vers https://unilag.edu.ng/."
+  }
+]

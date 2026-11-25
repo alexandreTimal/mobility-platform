@@ -1,0 +1,582 @@
+[
+  {
+    "id": "nus",
+    "name": "National University of Singapore",
+    "name_local": null,
+    "city": "Singapour",
+    "country": "Singapour",
+    "country_code": "SG",
+    "continent": "asia",
+    "latitude": 1.2966,
+    "longitude": 103.7764,
+    "wikidata_id": "Q738236",
+    "website": "https://nus.edu.sg",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "15",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "National University of Singapore",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/national-university-singapore"
+    },
+    "engineering_programs": "College of Design and Engineering : licences en génie biomédical, chimique, civil, informatique (computer engineering), électrique, environnemental, industriel et des systèmes, des matériaux et mécanique, en robotique et intelligence artificielle, et Engineering Science.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q738236",
+      "coordinates": "https://www.wikidata.org/wiki/Q738236#P625",
+      "website": "https://www.wikidata.org/wiki/Q738236#P856",
+      "engineering_programs": "https://cde.nus.edu.sg/undergraduate/programmes/"
+    },
+    "notes": "Campus de Kent Ridge. Programmes : page officielle consultée dans un navigateur le 25/11/2026, le site refusant les requêtes automatisées."
+  },
+  {
+    "id": "ntu-singapore",
+    "name": "Nanyang Technological University",
+    "name_local": null,
+    "city": "Singapour",
+    "country": "Singapour",
+    "country_code": "SG",
+    "continent": "asia",
+    "latitude": 1.3447,
+    "longitude": 103.6814,
+    "wikidata_id": "Q721064",
+    "website": "https://www.ntu.edu.sg",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "28",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Nanyang Technological University, Singapore",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/nanyang-technological-university-singapore"
+    },
+    "engineering_programs": "College of Engineering (écoles de génie chimique et biotechnologie, civil et environnemental, électrique et électronique, science des matériaux, mécanique et aérospatial) et College of Computing and Data Science.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q721064",
+      "coordinates": "https://www.wikidata.org/wiki/Q721064#P625",
+      "website": "https://www.wikidata.org/wiki/Q721064#P856",
+      "engineering_programs": "https://www.ntu.edu.sg/education/colleges-schools"
+    },
+    "notes": null
+  },
+  {
+    "id": "tsinghua",
+    "name": "Tsinghua University",
+    "name_local": "清华大学",
+    "city": "Pékin",
+    "country": "Chine",
+    "country_code": "CN",
+    "continent": "asia",
+    "latitude": 40.0,
+    "longitude": 116.3267,
+    "wikidata_id": "Q16955",
+    "website": "https://www.tsinghua.edu.cn/en/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "11",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Tsinghua University",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/tsinghua-university"
+    },
+    "engineering_programs": "Écoles de génie civil, d'environnement, de génie mécanique, d'ingénierie aérospatiale, de science des matériaux et des sciences de l'information (électronique, informatique, automatique, logiciel, circuits intégrés) ; départements de génie électrique et chimique.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q16955",
+      "coordinates": "https://www.wikidata.org/wiki/Q16955#P625",
+      "website": "https://www.wikidata.org/wiki/Q16955#P856",
+      "engineering_programs": "https://www.tsinghua.edu.cn/en/Schools___Departments.htm"
+    },
+    "notes": null
+  },
+  {
+    "id": "kaist",
+    "name": "Korea Advanced Institute of Science and Technology",
+    "name_local": "한국과학기술원",
+    "city": "Daejeon",
+    "country": "Corée du Sud",
+    "country_code": "KR",
+    "continent": "asia",
+    "latitude": 36.372,
+    "longitude": 127.363,
+    "wikidata_id": "Q39949",
+    "website": "https://www.kaist.ac.kr/en/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "64",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Korea Advanced Institute of Science and Technology (KAIST)",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/korea-advanced-institute-science-and-technology-kaist"
+    },
+    "engineering_programs": "College of Engineering : génie mécanique, aérospatial, électrique, civil et environnemental, chimique et biomoléculaire, matériaux, nucléaire et quantique, industriel et des systèmes, bio-ingénierie, design industriel, et School of Computing.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q39949",
+      "coordinates": "https://www.wikidata.org/wiki/Q39949#P625",
+      "website": "https://www.wikidata.org/wiki/Q39949#P856",
+      "engineering_programs": "https://www.kaist.ac.kr/en/html/edu/03.html"
+    },
+    "notes": null
+  },
+  {
+    "id": "tohoku",
+    "name": "Tohoku University",
+    "name_local": "東北大学",
+    "city": "Sendai",
+    "country": "Japon",
+    "country_code": "JP",
+    "continent": "asia",
+    "latitude": 38.2552,
+    "longitude": 140.8339,
+    "wikidata_id": "Q1062129",
+    "website": "https://www.tohoku.ac.jp/en/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "106",
+      "tied": true,
+      "status": "ranked",
+      "the_name": "Tohoku University",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/tohoku-university"
+    },
+    "engineering_programs": "School of Engineering : cinq départements de licence (mécanique et aérospatial ; électricité, information et physique ; chimie appliquée, génie chimique et biomoléculaire ; science des matériaux ; génie civil et architecture).",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q1062129",
+      "coordinates": "https://www.wikidata.org/wiki/Q130710688#P625",
+      "website": "https://www.wikidata.org/wiki/Q1062129#P856",
+      "engineering_programs": "https://www.eng.tohoku.ac.jp/english/academics/studies/"
+    },
+    "notes": "Coordonnées du campus d'Aobayama (Sendai), où se trouve l'école d'ingénierie (Aobayama East Campus) ; le point Wikidata de l'université tombe sur le campus de Katahira (siège)."
+  },
+  {
+    "id": "kfupm",
+    "name": "King Fahd University of Petroleum and Minerals",
+    "name_local": "جامعة الملك فهد للبترول والمعادن",
+    "city": "Dhahran",
+    "country": "Arabie saoudite",
+    "country_code": "SA",
+    "continent": "asia",
+    "latitude": 26.3097,
+    "longitude": 50.1439,
+    "wikidata_id": "Q4116241",
+    "website": "https://www.kfupm.edu.sa",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "176",
+      "tied": true,
+      "status": "ranked",
+      "the_name": "KFUPM",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/kfupm"
+    },
+    "engineering_programs": "Colleges of Engineering & Physics (aérospatial, contrôle et instrumentation, électrique, mécanique), Computing and Mathematics (génie informatique, industriel et systèmes, informatique), Petroleum Engineering & Geosciences, Chemicals and Materials, Design and Built Environment.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q4116241",
+      "coordinates": "https://www.wikidata.org/wiki/Q4116241#P625",
+      "website": "https://www.wikidata.org/wiki/Q4116241#P856",
+      "engineering_programs": "https://www.kfupm.edu.sa/study/colleges"
+    },
+    "notes": null
+  },
+  {
+    "id": "universiti-malaya",
+    "name": "Universiti Malaya",
+    "name_local": null,
+    "city": "Kuala Lumpur",
+    "country": "Malaisie",
+    "country_code": "MY",
+    "continent": "asia",
+    "latitude": 3.1208,
+    "longitude": 101.6564,
+    "wikidata_id": "Q1142924",
+    "website": "https://www.um.edu.my/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "194",
+      "tied": true,
+      "status": "ranked",
+      "the_name": "University of Malaya",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/university-malaya"
+    },
+    "engineering_programs": "Faculty of Engineering : licences en génie biomédical, chimique, civil, électrique et mécanique.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q1142924",
+      "coordinates": "https://www.wikidata.org/wiki/Q1142924#P625",
+      "website": "https://www.wikidata.org/wiki/Q1142924#P856",
+      "engineering_programs": "https://engine.um.edu.my/undergraduate-programmes"
+    },
+    "notes": "L'informatique relève d'une faculté distincte, la Faculty of Computer Science and Information Technology (liste des facultés : https://www.um.edu.my/faculties)."
+  },
+  {
+    "id": "qatar-university",
+    "name": "Qatar University",
+    "name_local": "جامعة قطر",
+    "city": "Doha",
+    "country": "Qatar",
+    "country_code": "QA",
+    "continent": "asia",
+    "latitude": 25.3746,
+    "longitude": 51.4902,
+    "wikidata_id": "Q1574578",
+    "website": "https://www.qu.edu.qa/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "222",
+      "tied": true,
+      "status": "ranked",
+      "the_name": "Qatar University",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/qatar-university"
+    },
+    "engineering_programs": "College of Engineering (créé en 1980) : architecture et urbanisme, génie chimique, civil, informatique, électrique, industriel et des systèmes, mécatronique, et licence en informatique (Computer Science).",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q1574578",
+      "coordinates": "https://www.wikidata.org/wiki/Q1574578#P625",
+      "website": "https://www.wikidata.org/wiki/Q1574578#P856",
+      "engineering_programs": "https://www.qu.edu.qa/en-us/colleges/engineering"
+    },
+    "notes": "Le site officiel ne répond pas à curl le 25/11/2026 (chaîne de certificats TLS incomplète) mais s'ouvre dans un navigateur ; pages vérifiées ainsi. Les coordonnées tombent sur le bâtiment du College of Engineering (campus principal, Doha)."
+  },
+  {
+    "id": "khalifa-university",
+    "name": "Khalifa University",
+    "name_local": "جامعة خليفة",
+    "city": "Abou Dabi",
+    "country": "Émirats arabes unis",
+    "country_code": "AE",
+    "continent": "asia",
+    "latitude": 24.4474,
+    "longitude": 54.3949,
+    "wikidata_id": "Q6399651",
+    "website": "https://www.ku.ac.ae/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "235",
+      "tied": true,
+      "status": "ranked",
+      "the_name": "Khalifa University",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/khalifa-university"
+    },
+    "engineering_programs": "College of Engineering and Physical Sciences et College of Computing and Mathematical Sciences : licences en génie aérospatial, biomédical, chimique, civil, informatique, électrique, énergétique, mécanique, pétrolier, et en informatique.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q6399651",
+      "coordinates": "https://www.wikidata.org/wiki/Q6399651#P625",
+      "website": "https://www.wikidata.org/wiki/Q6399651#P856",
+      "engineering_programs": "https://www.ku.ac.ae/academics/undergraduate-programs"
+    },
+    "notes": "Deux campus à Abou Dabi : Main Campus (île d'Abou Dabi) et Sas Al Nakhl. Les coordonnées Wikidata, retenues, tombent dans le quartier de Hadbat Al Za'faranah sur l'île, a priori le Main Campus."
+  },
+  {
+    "id": "iisc-bangalore",
+    "name": "Indian Institute of Science",
+    "name_local": null,
+    "city": "Bangalore",
+    "country": "Inde",
+    "country_code": "IN",
+    "continent": "asia",
+    "latitude": 13.0198,
+    "longitude": 77.5661,
+    "wikidata_id": "Q948720",
+    "website": "https://www.iisc.ac.in/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "254",
+      "tied": true,
+      "status": "ranked",
+      "the_name": "Indian Institute of Science",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/indian-institute-science"
+    },
+    "engineering_programs": "Divisions des sciences électriques, électroniques et informatiques (Computer Science and Automation, génie électrique, électronique, communications) et des sciences mécaniques (aérospatial, chimique, civil, mécanique, matériaux) ; Computational and Data Sciences.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q948720",
+      "coordinates": "https://www.wikidata.org/wiki/Q948720#P625",
+      "website": "https://www.wikidata.org/wiki/Q948720#P856",
+      "engineering_programs": "https://www.iisc.ac.in/academics/departments/"
+    },
+    "notes": "Établissement surtout orienté master et doctorat ; il propose aussi un Bachelor of Science (Research) et un B.Tech (https://www.iisc.ac.in/ug/)."
+  },
+  {
+    "id": "metu",
+    "name": "Middle East Technical University",
+    "name_local": "Orta Doğu Teknik Üniversitesi",
+    "city": "Ankara",
+    "country": "Turquie",
+    "country_code": "TR",
+    "continent": "asia",
+    "latitude": 39.8857,
+    "longitude": 32.784,
+    "wikidata_id": "Q756126",
+    "website": "https://www.metu.edu.tr",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "326-350",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Middle East Technical University",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/middle-east-technical-university"
+    },
+    "engineering_programs": "Faculty of Engineering : génie aérospatial, chimique, civil, informatique, électrique et électronique, environnement, agroalimentaire, géologique, industriel, mécanique, métallurgie et matériaux, mines, pétrole et gaz naturel.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q756126",
+      "coordinates": "https://www.wikidata.org/wiki/Q756126#P625",
+      "website": "https://www.wikidata.org/wiki/Q756126#P856",
+      "engineering_programs": "https://www.metu.edu.tr/undergraduate-programs-and-degrees"
+    },
+    "notes": "Campus d'Ankara retenu ; l'université a aussi un campus en Chypre du Nord (METU Northern Cyprus Campus)."
+  },
+  {
+    "id": "nthu",
+    "name": "National Tsing Hua University",
+    "name_local": "國立清華大學",
+    "city": "Hsinchu",
+    "country": "Taïwan",
+    "country_code": "TW",
+    "continent": "asia",
+    "latitude": 24.7936,
+    "longitude": 120.9928,
+    "wikidata_id": "Q43406",
+    "website": "https://nthu-en.site.nthu.edu.tw/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "351-375",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "National Tsing Hua University",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/national-tsing-hua-university"
+    },
+    "engineering_programs": "College of Engineering (génie chimique, mécanique, matériaux, industriel, nano-ingénierie, biomédical) et College of Electrical Engineering and Computer Science (génie électrique, informatique, électronique, communications).",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q43406",
+      "coordinates": "https://www.wikidata.org/wiki/Q43406#P625",
+      "website": "https://www.wikidata.org/wiki/Q43406#P856",
+      "engineering_programs": "https://nthu-en.site.nthu.edu.tw/p/404-1003-77287.php"
+    },
+    "notes": null
+  },
+  {
+    "id": "nazarbayev-university",
+    "name": "Nazarbayev University",
+    "name_local": "Назарбаев Университеті",
+    "city": "Astana",
+    "country": "Kazakhstan",
+    "country_code": "KZ",
+    "continent": "asia",
+    "latitude": 51.09,
+    "longitude": 71.3994,
+    "wikidata_id": "Q2783344",
+    "website": "https://nu.edu.kz",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "376-400",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Nazarbayev University",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/nazarbayev-university"
+    },
+    "engineering_programs": "School of Engineering and Digital Sciences et School of Mining and Geosciences : licences en génie chimique et matériaux, civil et environnemental, électrique et informatique, mécanique et aérospatial, robotique, mines, pétrole, et en informatique.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q2783344",
+      "coordinates": "https://www.wikidata.org/wiki/Q2783344#P625",
+      "website": "https://www.wikidata.org/wiki/Q2783344#P856",
+      "engineering_programs": "https://nu.edu.kz/admissions/programs/"
+    },
+    "notes": null
+  },
+  {
+    "id": "chulalongkorn",
+    "name": "Chulalongkorn University",
+    "name_local": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "city": "Bangkok",
+    "country": "Thaïlande",
+    "country_code": "TH",
+    "continent": "asia",
+    "latitude": 13.7384,
+    "longitude": 100.5321,
+    "wikidata_id": "Q855730",
+    "website": "https://www.chula.ac.th/en/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "501-550",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Chulalongkorn University",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/chulalongkorn-university"
+    },
+    "engineering_programs": "Faculty of Engineering : 21 licences dont 7 internationales (génie civil, électrique, mécanique, industriel, chimique, informatique, environnement, mines et pétrole ; aérospatial, robotique et IA, semi-conducteurs en programme international).",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q855730",
+      "coordinates": "https://www.wikidata.org/wiki/Q855730#P625",
+      "website": "https://www.wikidata.org/wiki/Q855730#P856",
+      "engineering_programs": "https://www.eng.chula.ac.th/en/academics/bachelor"
+    },
+    "notes": null
+  },
+  {
+    "id": "itu",
+    "name": "Istanbul Technical University",
+    "name_local": "İstanbul Teknik Üniversitesi",
+    "city": "Istanbul",
+    "country": "Turquie",
+    "country_code": "TR",
+    "continent": "asia",
+    "latitude": 41.105,
+    "longitude": 29.025,
+    "wikidata_id": "Q344334",
+    "website": "https://www.itu.edu.tr/en",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "651-700",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Istanbul Technical University",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/istanbul-technical-university"
+    },
+    "engineering_programs": "Treize facultés, dont génie civil, mécanique, électrique et électronique, chimie-métallurgie, aéronautique et astronautique, mines, architecture navale et sciences marines, et informatique (Faculty of Computer and Informatics).",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q344334",
+      "coordinates": "https://www.wikidata.org/wiki/Q344334#P625",
+      "website": "https://www.wikidata.org/wiki/Q344334#P856",
+      "engineering_programs": "https://www.itu.edu.tr/en/faculty-list"
+    },
+    "notes": "Campus principal d'Ayazağa (Maslak, Sarıyer), où se trouvent la plupart des facultés ; la faculté de génie mécanique est sur le campus de Gümüşsuyu, également à Istanbul."
+  },
+  {
+    "id": "university-of-the-philippines",
+    "name": "University of the Philippines",
+    "name_local": null,
+    "city": "Quezon City",
+    "country": "Philippines",
+    "country_code": "PH",
+    "continent": "asia",
+    "latitude": 14.6565,
+    "longitude": 121.0695,
+    "wikidata_id": "Q746592",
+    "website": "https://up.edu.ph/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "1201-1400",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "University of the Philippines",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/university-philippines"
+    },
+    "engineering_programs": "College of Engineering : licences en génie chimique, civil, informatique, électrique, électronique, géodésique, industriel, des matériaux, mécanique, métallurgique, minier, et en informatique (Computer Science).",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q746592",
+      "coordinates": "https://www.openstreetmap.org/way/1332806907",
+      "engineering_programs": "https://web.archive.org/web/20260812230109/https://coe.upd.edu.ph/academics-overview/undergraduate-degree-programs/",
+      "website": "https://www.wikidata.org/wiki/Q746592#P856"
+    },
+    "notes": "Système universitaire national, classé dans son ensemble par THE. Coordonnées : College of Engineering (Melchor Hall) du campus de Diliman, d'après OpenStreetMap ; les programmes cités sont ceux de ce College. Le site du College (coe.upd.edu.ph) présente un certificat TLS refusé par curl et par le navigateur le 25/11/2026 : programmes vérifiés sur la copie de la page officielle archivée par Internet Archive le 12/08/2026."
+  },
+  {
+    "id": "itb",
+    "name": "Bandung Institute of Technology",
+    "name_local": "Institut Teknologi Bandung",
+    "city": "Bandung",
+    "country": "Indonésie",
+    "country_code": "ID",
+    "continent": "asia",
+    "latitude": -6.8899,
+    "longitude": 107.61,
+    "wikidata_id": "Q1579397",
+    "website": "https://itb.ac.id/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "1401-1600",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Institut Teknologi Bandung",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/institut-teknologi-bandung"
+    },
+    "engineering_programs": "Écoles et facultés : génie électrique et informatique (STEI), génie mécanique et aérospatial (FTMD), génie civil et environnement (FTSL), technologie industrielle (FTI), mines et pétrole (FTTM), sciences et technologies de la Terre (FITB).",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q1579397",
+      "coordinates": "https://www.wikidata.org/wiki/Q1579397#P625",
+      "website": "https://www.wikidata.org/wiki/Q1579397#P856",
+      "engineering_programs": "https://itb.ac.id/fakultas-dan-sekolah"
+    },
+    "notes": "Campus de Ganesha (Bandung) retenu ; Wikidata indique aussi le campus de Jatinangor, situé dans le kabupaten de Sumedang, hors de Bandung."
+  },
+  {
+    "id": "hust",
+    "name": "Hanoi University of Science and Technology",
+    "name_local": "Đại học Bách khoa Hà Nội",
+    "city": "Hanoï",
+    "country": "Viêt Nam",
+    "country_code": "VN",
+    "continent": "asia",
+    "latitude": 21.0064,
+    "longitude": 105.8431,
+    "wikidata_id": "Q3075696",
+    "website": "https://hust.edu.vn/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "1601-1800",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Hanoi University of Science and Technology",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/hanoi-university-science-and-technology"
+    },
+    "engineering_programs": "Écoles de génie mécanique, de génie électrique et électronique, des technologies de l'information et de la communication, de science et ingénierie des matériaux, de chimie et sciences de la vie ; faculté de physique de l'ingénieur.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q3075696",
+      "coordinates": "https://www.wikidata.org/wiki/Q3075696#P625",
+      "website": "https://www.wikidata.org/wiki/Q3075696#P856",
+      "engineering_programs": "https://hust.edu.vn/en/organization/schools-and-faculties-551527.html"
+    },
+    "notes": "L'URL Wikidata (http://www.hust.edu.vn) ne répond pas le 25/11/2026 ; https://hust.edu.vn/ retenue."
+  },
+  {
+    "id": "buet",
+    "name": "Bangladesh University of Engineering and Technology",
+    "name_local": "বাংলাদেশ প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয়",
+    "city": "Dacca",
+    "country": "Bangladesh",
+    "country_code": "BD",
+    "continent": "asia",
+    "latitude": 23.7267,
+    "longitude": 90.3925,
+    "wikidata_id": "Q506330",
+    "website": "https://www.buet.ac.bd/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "1001-1200",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Bangladesh University of Engineering and Technology",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/bangladesh-university-engineering-and-technology"
+    },
+    "engineering_programs": "Dix-huit départements en cinq facultés, dont génie civil, ressources en eau, électrique et électronique, informatique (CSE), biomédical, chimique, matériaux et métallurgie, mécanique, architecture navale, génie industriel et de production.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q506330",
+      "coordinates": "https://www.wikidata.org/wiki/Q506330#P625",
+      "website": "https://www.wikidata.org/wiki/Q506330#P856",
+      "engineering_programs": "https://www.buet.ac.bd/web/#/department"
+    },
+    "notes": "Nom bengali : Wikipédia donne « বাংলাদেশ প্রকৌশল বিশ্ববিদ্যালয় », Wikidata « বাংলাদেশ প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় » ; la valeur Wikidata a été retenue, non confirmée sur le site officiel."
+  },
+  {
+    "id": "georgian-technical-university",
+    "name": "Georgian Technical University",
+    "name_local": "საქართველოს ტექნიკური უნივერსიტეტი",
+    "city": "Tbilissi",
+    "country": "Géorgie",
+    "country_code": "GE",
+    "continent": "asia",
+    "latitude": 41.7169,
+    "longitude": 44.7781,
+    "wikidata_id": "Q1425119",
+    "website": "https://gtu.ge/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "2001+",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Georgian Technical University",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/georgian-technical-university"
+    },
+    "engineering_programs": "Facultés de construction, d'énergie (Power Engineering), de géologie minière, des systèmes de transport et génie mécanique, d'informatique et systèmes de contrôle, des sciences agricoles et technologies chimiques.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q1425119",
+      "coordinates": "https://www.wikidata.org/wiki/Q1425119#P625",
+      "website": "https://www.wikidata.org/wiki/Q1425119#P856",
+      "engineering_programs": "https://gtu.ge/en/GTU/Structure/faculties.php"
+    },
+    "notes": null
+  }
+]

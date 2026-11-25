@@ -1,0 +1,176 @@
+[
+  {
+    "id": "unimelb",
+    "name": "University of Melbourne",
+    "name_local": null,
+    "city": "Melbourne",
+    "country": "Australie",
+    "country_code": "AU",
+    "continent": "oceania",
+    "latitude": -37.7963,
+    "longitude": 144.9614,
+    "wikidata_id": "Q319078",
+    "website": "https://www.unimelb.edu.au/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "34",
+      "tied": true,
+      "status": "ranked",
+      "the_name": "University of Melbourne",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/university-melbourne"
+    },
+    "engineering_programs": "Faculty of Engineering and Information Technology : écoles d'informatique et systèmes d'information, de génie chimique et biomédical, et de génie électrique, mécanique et des infrastructures (départements de génie biomédical, chimique, électrique et électronique, des infrastructures, mécanique).",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q319078",
+      "coordinates": "https://www.wikidata.org/wiki/Q319078#P625",
+      "website": "https://www.wikidata.org/wiki/Q319078#P856",
+      "engineering_programs": "https://eng.unimelb.edu.au/about/departments"
+    },
+    "notes": "Coordonnées : campus principal de Parkville. Programmes : page officielle consultée dans un navigateur le 25/11/2026, le site refusant les requêtes automatisées."
+  },
+  {
+    "id": "unsw-sydney",
+    "name": "UNSW Sydney",
+    "name_local": null,
+    "city": "Sydney",
+    "country": "Australie",
+    "country_code": "AU",
+    "continent": "oceania",
+    "latitude": -33.9169,
+    "longitude": 151.2325,
+    "wikidata_id": "Q734764",
+    "website": "https://www.unsw.edu.au/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "75",
+      "tied": true,
+      "status": "ranked",
+      "the_name": "UNSW Sydney",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/unsw-sydney"
+    },
+    "engineering_programs": "Faculty of Engineering, organisée en écoles : génie biomédical, chimique, civil et environnemental, informatique (Computer Science & Engineering), électrique et télécommunications, mécanique et fabrication, minier et ressources énergétiques, photovoltaïque et énergies renouvelables.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q734764",
+      "coordinates": "https://www.wikidata.org/wiki/Q734764#P625",
+      "website": "https://www.wikidata.org/wiki/Q734764#P856",
+      "engineering_programs": "https://www.unsw.edu.au/engineering/our-schools"
+    },
+    "notes": "Nom légal (libellé Wikidata) : « University of New South Wales » ; « UNSW Sydney » est le nom d'usage international. Coordonnées = campus principal de Kensington (quartier de Sydney), où se trouvent la plupart des facultés."
+  },
+  {
+    "id": "qut",
+    "name": "Queensland University of Technology",
+    "name_local": null,
+    "city": "Brisbane",
+    "country": "Australie",
+    "country_code": "AU",
+    "continent": "oceania",
+    "latitude": -27.4769,
+    "longitude": 153.0281,
+    "wikidata_id": "Q1144750",
+    "website": "https://www.qut.edu.au/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "222",
+      "tied": true,
+      "status": "ranked",
+      "the_name": "Queensland University of Technology",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/queensland-university-technology"
+    },
+    "engineering_programs": "Faculty of Engineering : écoles de génie civil et environnemental, de génie électrique et robotique, de génie mécanique, médical et des procédés, et d'architecture et environnement bâti.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q1144750",
+      "coordinates": "https://www.wikidata.org/wiki/Q1144750#P625",
+      "website": "https://www.wikidata.org/wiki/Q1144750#P856",
+      "engineering_programs": "https://www.qut.edu.au/about/faculty-of-engineering"
+    },
+    "notes": "Coordonnées : campus de Gardens Point (centre de Brisbane), où est dispensé le Bachelor of Engineering (Honours) d'après la fiche de la formation (https://www.qut.edu.au/courses/bachelor-of-engineering-honours). Page officielle consultée dans un navigateur le 25/11/2026, le site refusant les requêtes automatisées."
+  },
+  {
+    "id": "curtin",
+    "name": "Curtin University",
+    "name_local": null,
+    "city": "Perth",
+    "country": "Australie",
+    "country_code": "AU",
+    "continent": "oceania",
+    "latitude": -32.0049,
+    "longitude": 115.8937,
+    "wikidata_id": "Q1145497",
+    "website": "https://www.curtin.edu.au/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "292",
+      "tied": true,
+      "status": "ranked",
+      "the_name": "Curtin University",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/curtin-university"
+    },
+    "engineering_programs": "Faculty of Science & Engineering : génie civil, mécanique, mécatronique, électrique et électronique, informatique (computing), mathématiques et physique ; la faculté inclut la Western Australian School of Mines.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q1145497",
+      "coordinates": "https://www.wikidata.org/wiki/Q1145497#P625",
+      "website": "https://www.wikidata.org/wiki/Q1145497#P856",
+      "engineering_programs": "https://www.curtin.edu.au/about/learning-teaching/science-engineering/"
+    },
+    "notes": "Coordonnées = campus principal de Bentley, dans l'agglomération de Perth (Wikidata P131 mélange tous les campus). La Western Australian School of Mines a aussi un campus à Kalgoorlie."
+  },
+  {
+    "id": "canterbury",
+    "name": "University of Canterbury",
+    "name_local": "Te Whare Wānanga o Waitaha",
+    "city": "Christchurch",
+    "country": "Nouvelle-Zélande",
+    "country_code": "NZ",
+    "continent": "oceania",
+    "latitude": -43.5233,
+    "longitude": 172.5819,
+    "wikidata_id": "Q432475",
+    "website": "https://www.canterbury.ac.nz/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "551-600",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "University of Canterbury",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/university-canterbury"
+    },
+    "engineering_programs": "Bachelor of Engineering with Honours en 4 ans, accrédité par Engineering New Zealand : génie chimique et des procédés, civil, informatique (computer engineering), électrique et électronique, forestier, mécanique, mécatronique et génie logiciel.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q432475",
+      "coordinates": "https://www.wikidata.org/wiki/Q432475#P625",
+      "website": "https://www.wikidata.org/wiki/Q432475#P856",
+      "engineering_programs": "https://www.canterbury.ac.nz/study/academic-study/qualifications/bachelor-of-engineering-with-honours"
+    },
+    "notes": null
+  },
+  {
+    "id": "university-of-the-south-pacific",
+    "name": "University of the South Pacific",
+    "name_local": null,
+    "city": "Suva",
+    "country": "Fidji",
+    "country_code": "FJ",
+    "continent": "oceania",
+    "latitude": -18.149,
+    "longitude": 178.4445,
+    "wikidata_id": "Q1062121",
+    "website": "https://www.usp.ac.fj/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "1201-1400",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "University of the South Pacific",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/university-south-pacific"
+    },
+    "engineering_programs": "School of Information Technology, Engineering, Mathematics and Physics (STEMP) : génie civil, génie électrique et électronique, génie mécanique (licences d'ingénierie en quatre ans accréditées), informatique et systèmes d'information, mathématiques et statistiques, physique.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q1062121",
+      "coordinates": "https://www.wikidata.org/wiki/Q1062121#P625",
+      "website": "https://www.wikidata.org/wiki/Q1062121#P856",
+      "engineering_programs": "https://www.usp.ac.fj/usp-stemp/"
+    },
+    "notes": "Université régionale détenue par 12 États du Pacifique : on retient Fidji, où se trouvent le siège et le campus principal de Laucala (Suva). Programmes : page officielle consultée dans un navigateur le 25/11/2026, le site refusant les requêtes automatisées."
+  }
+]

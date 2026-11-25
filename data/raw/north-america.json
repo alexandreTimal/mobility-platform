@@ -1,0 +1,408 @@
+[
+  {
+    "id": "university-of-toronto",
+    "name": "University of Toronto",
+    "name_local": null,
+    "city": "Toronto",
+    "country": "Canada",
+    "country_code": "CA",
+    "continent": "north-america",
+    "latitude": 43.6629,
+    "longitude": -79.3957,
+    "wikidata_id": "Q180865",
+    "website": "https://www.utoronto.ca/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "22",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "University of Toronto",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/university-toronto"
+    },
+    "engineering_programs": "Faculty of Applied Science & Engineering : génie chimique, civil, informatique (computer engineering), électrique, industriel, des matériaux, minéral et mécanique, ainsi que le programme Engineering Science.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q180865",
+      "coordinates": "https://www.wikidata.org/wiki/Q180865#P625",
+      "website": "https://www.wikidata.org/wiki/Q180865#P856",
+      "engineering_programs": "https://discover.engineering.utoronto.ca/programs/"
+    },
+    "notes": "Coordonnées = campus St. George (centre de Toronto), où se trouve la faculté d'ingénierie ; l'université a aussi des campus à Mississauga et Scarborough."
+  },
+  {
+    "id": "university-of-waterloo",
+    "name": "University of Waterloo",
+    "name_local": null,
+    "city": "Waterloo",
+    "country": "Canada",
+    "country_code": "CA",
+    "continent": "north-america",
+    "latitude": 43.4689,
+    "longitude": -80.54,
+    "wikidata_id": "Q1049470",
+    "website": "https://uwaterloo.ca",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "178",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "University of Waterloo",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/university-waterloo"
+    },
+    "engineering_programs": "Faculty of Engineering : génie architectural, biomédical, chimique, civil, informatique (computer engineering), électrique, environnemental, géologique, mécanique, mécatronique, des nanotechnologies, logiciel, de conception de systèmes et Management Science Engineering.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q1049470",
+      "coordinates": "https://www.wikidata.org/wiki/Q1049470#P625",
+      "website": "https://www.wikidata.org/wiki/Q1049470#P856",
+      "engineering_programs": "https://uwaterloo.ca/engineering/undergraduate-students/programs-engineering"
+    },
+    "notes": "Remplace Polytechnique Montréal, absente du classement THE 2027."
+  },
+  {
+    "id": "universite-laval",
+    "name": "Université Laval",
+    "name_local": null,
+    "city": "Québec",
+    "country": "Canada",
+    "country_code": "CA",
+    "continent": "north-america",
+    "latitude": 46.78,
+    "longitude": -71.2747,
+    "wikidata_id": "Q1067935",
+    "website": "https://www.ulaval.ca/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "301-325",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Université Laval",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/universite-laval"
+    },
+    "engineering_programs": "Faculté des sciences et de génie : baccalauréats en génie chimique, civil, des eaux, électrique, géologique, industriel, informatique, logiciel, mécanique, physique, des mines et de la minéralurgie, des matériaux et de la métallurgie, et en informatique.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q1067935",
+      "coordinates": "https://www.wikidata.org/wiki/Q1067935#P625",
+      "website": "https://www.wikidata.org/wiki/Q1067935#P856",
+      "engineering_programs": "https://www.fsg.ulaval.ca/etudes/programmes-detudes"
+    },
+    "notes": "Campus de la Cité universitaire, à Québec (Wikidata : quartier Cité-Universitaire), où se trouve la Faculté des sciences et de génie."
+  },
+  {
+    "id": "uiuc",
+    "name": "University of Illinois Urbana-Champaign",
+    "name_local": null,
+    "city": "Urbana",
+    "country": "États-Unis",
+    "country_code": "US",
+    "continent": "north-america",
+    "latitude": 40.1105,
+    "longitude": -88.2284,
+    "wikidata_id": "Q457281",
+    "website": "https://illinois.edu",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "48",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "University of Illinois at Urbana-Champaign",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/university-illinois-urbana-champaign"
+    },
+    "engineering_programs": "Grainger College of Engineering : génie aérospatial, agricole et biologique, bio-ingénierie, génie chimique, civil, environnemental, électrique, informatique (computer engineering), industriel, des matériaux, mécanique, nucléaire, et informatique (computer science).",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q457281",
+      "coordinates": "https://www.wikidata.org/wiki/Q457281#P625",
+      "website": "https://www.wikidata.org/wiki/Q457281#P856",
+      "engineering_programs": "https://grainger.illinois.edu/academics/undergraduate/majors-and-minors"
+    },
+    "notes": "Le campus est à cheval sur Urbana et Champaign (Wikidata indique les deux) ; le point Wikidata tombe dans l'emprise OpenStreetMap de l'université, côté Urbana. Le site officiel ne répond pas aux requêtes automatisées mais s'ouvre dans un navigateur (25/11/2026)."
+  },
+  {
+    "id": "georgia-tech",
+    "name": "Georgia Institute of Technology",
+    "name_local": null,
+    "city": "Atlanta",
+    "country": "États-Unis",
+    "country_code": "US",
+    "continent": "north-america",
+    "latitude": 33.7758,
+    "longitude": -84.3947,
+    "wikidata_id": "Q864855",
+    "website": "https://gatech.edu",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "49",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Georgia Institute of Technology",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/georgia-institute-technology"
+    },
+    "engineering_programs": "College of Engineering, organisé en écoles : génie aérospatial, biomédical, chimique et biomoléculaire, civil et environnemental, électrique et informatique, industriel et des systèmes, science des matériaux, mécanique.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q864855",
+      "coordinates": "https://www.wikidata.org/wiki/Q864855#P625",
+      "website": "https://www.wikidata.org/wiki/Q864855#P856",
+      "engineering_programs": "https://coe.gatech.edu/schools/schools-college-engineering"
+    },
+    "notes": null
+  },
+  {
+    "id": "virginia-tech",
+    "name": "Virginia Polytechnic Institute and State University",
+    "name_local": null,
+    "city": "Blacksburg",
+    "country": "États-Unis",
+    "country_code": "US",
+    "continent": "north-america",
+    "latitude": 37.225,
+    "longitude": -80.425,
+    "wikidata_id": "Q65379",
+    "website": "https://www.vt.edu/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "277",
+      "tied": true,
+      "status": "ranked",
+      "the_name": "Virginia Polytechnic Institute and State University",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/virginia-polytechnic-institute-and-state-university"
+    },
+    "engineering_programs": "College of Engineering : génie aérospatial et océanique, des systèmes biologiques, biomédical, chimique, civil et environnemental, électrique et informatique, industriel, des matériaux, mécanique, minier, informatique (computer science) et construction.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q65379",
+      "coordinates": "https://www.wikidata.org/wiki/Q65379#P625",
+      "website": "https://www.wikidata.org/wiki/Q65379#P856",
+      "engineering_programs": "https://eng.vt.edu/about/departments.html"
+    },
+    "notes": "Nom usuel : Virginia Tech. Coordonnées Wikidata peu précises (3 décimales), mais situées à Blacksburg."
+  },
+  {
+    "id": "nc-state",
+    "name": "North Carolina State University",
+    "name_local": null,
+    "city": "Raleigh",
+    "country": "États-Unis",
+    "country_code": "US",
+    "continent": "north-america",
+    "latitude": 35.771,
+    "longitude": -78.676,
+    "wikidata_id": "Q1132346",
+    "website": "https://ncsu.edu",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "301-325",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "North Carolina State University",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/north-carolina-state-university"
+    },
+    "engineering_programs": "College of Engineering : génie biomédical, chimique et biomoléculaire, civil, de la construction et environnemental, électrique et informatique, industriel, des matériaux, mécanique et aérospatial, nucléaire, et informatique (computer science).",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q1132346",
+      "coordinates": "https://www.wikidata.org/wiki/Q24779#P625",
+      "website": "https://www.wikidata.org/wiki/Q1132346#P856",
+      "engineering_programs": "https://www.engr.ncsu.edu/departments/"
+    },
+    "notes": "Coordonnées = Centennial Campus (Raleigh), qui regroupe l'ensemble des enseignements et de la recherche en ingénierie (Wikipédia, article « Centennial Campus ») ; l'ancien point Wikidata de l'université tombait sur le campus nord. Coordonnées Wikidata du campus peu précises (3 décimales)."
+  },
+  {
+    "id": "colorado-school-of-mines",
+    "name": "Colorado School of Mines",
+    "name_local": null,
+    "city": "Golden",
+    "country": "États-Unis",
+    "country_code": "US",
+    "continent": "north-america",
+    "latitude": 39.7511,
+    "longitude": -105.2225,
+    "wikidata_id": "Q1111367",
+    "website": "https://www.mines.edu/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "451-500",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Colorado School of Mines",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/colorado-school-mines"
+    },
+    "engineering_programs": "École de sciences appliquées et d'ingénierie : génie chimique et biologique, civil et environnemental, électrique, mécanique, métallurgique et des matériaux, informatique (computer science), mathématiques appliquées et physique.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q1111367",
+      "coordinates": "https://www.wikidata.org/wiki/Q1111367#P625",
+      "website": "https://www.wikidata.org/wiki/Q1111367#P856",
+      "engineering_programs": "https://www.mines.edu/academics/departments/"
+    },
+    "notes": "Remplace University of Colorado Boulder, absente du classement THE 2027."
+  },
+  {
+    "id": "rit",
+    "name": "Rochester Institute of Technology",
+    "name_local": null,
+    "city": "Henrietta",
+    "country": "États-Unis",
+    "country_code": "US",
+    "continent": "north-america",
+    "latitude": 43.0844,
+    "longitude": -77.675,
+    "wikidata_id": "Q2140778",
+    "website": "https://www.rit.edu/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "701-800",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Rochester Institute of Technology",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/rochester-institute-technology"
+    },
+    "engineering_programs": "Kate Gleason College of Engineering : génie biomédical, chimique, informatique (computer engineering), électrique et microélectronique, industriel et des systèmes, mécanique.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q2140778",
+      "coordinates": "https://www.wikidata.org/wiki/Q2140778#P625",
+      "website": "https://www.wikidata.org/wiki/Q2140778#P856",
+      "engineering_programs": "https://www.rit.edu/engineering/departments"
+    },
+    "notes": "Campus à Henrietta, dans l'agglomération de Rochester (État de New York), conformément à Wikidata."
+  },
+  {
+    "id": "unam",
+    "name": "National Autonomous University of Mexico",
+    "name_local": "Universidad Nacional Autónoma de México",
+    "city": "Mexico",
+    "country": "Mexique",
+    "country_code": "MX",
+    "continent": "north-america",
+    "latitude": 19.3289,
+    "longitude": -99.1872,
+    "wikidata_id": "Q222738",
+    "website": "https://www.unam.mx/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "701-800",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "National Autonomous University of Mexico",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/national-autonomous-university-mexico"
+    },
+    "engineering_programs": "Facultad de Ingeniería, à la Ciudad Universitaria : 15 licences dont génie aérospatial, civil, électrique-électronique, informatique (computación), télécommunications, mécanique, mécatronique, industriel, pétrolier, géologique et systèmes biomédicaux.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q222738",
+      "coordinates": "https://www.wikidata.org/wiki/Q222738#P625",
+      "website": "https://www.wikidata.org/wiki/Q222738#P856",
+      "engineering_programs": "https://www.ingenieria.unam.mx/"
+    },
+    "notes": "Coordonnées = Ciudad Universitaria (Coyoacán), où se trouve la Facultad de Ingeniería."
+  },
+  {
+    "id": "tec-de-monterrey",
+    "name": "Monterrey Institute of Technology and Higher Education",
+    "name_local": "Instituto Tecnológico y de Estudios Superiores de Monterrey",
+    "city": "Monterrey",
+    "country": "Mexique",
+    "country_code": "MX",
+    "continent": "north-america",
+    "latitude": 25.6514,
+    "longitude": -100.2907,
+    "wikidata_id": "Q1343885",
+    "website": "https://tec.mx/en",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "501-550",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Tecnológico de Monterrey",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/tecnologico-de-monterrey"
+    },
+    "engineering_programs": "School of Engineering and Sciences : génie mécanique, mécatronique, électronique, industriel et des systèmes, chimique, robotique et systèmes numériques, nanotechnologies, science des données et génie mathématique, entre autres.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q1343885",
+      "coordinates": "https://www.wikidata.org/wiki/Q1343885#P625",
+      "website": "https://www.wikidata.org/wiki/Q1343885#P856",
+      "engineering_programs": "https://eic.tec.mx/en/academic-excellence/undergraduate"
+    },
+    "notes": "Système multicampus ; coordonnées Wikidata = campus de Monterrey (campus historique). La liste des programmes de la School of Engineering and Sciences est paginée : seules les deux premières pages ont été lues."
+  },
+  {
+    "id": "ipn",
+    "name": "National Polytechnic Institute",
+    "name_local": "Instituto Politécnico Nacional",
+    "city": "Mexico",
+    "country": "Mexique",
+    "country_code": "MX",
+    "continent": "north-america",
+    "latitude": 19.5006,
+    "longitude": -99.1397,
+    "wikidata_id": "Q1539696",
+    "website": "https://www.ipn.mx/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "2001+",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Instituto Politécnico Nacional (IPN)",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/instituto-politecnico-nacional-ipn"
+    },
+    "engineering_programs": "Institut d'ingénierie organisé en écoles supérieures (ESIME, ESIA, ESCOM, ESIQIE, UPIITA…) : génie électrique, civil, mécanique, mécatronique, aéronautique, chimique, informatique (computación, sistemas computacionales), intelligence artificielle, entre autres.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q1539696",
+      "coordinates": "https://www.wikidata.org/wiki/Q1539696#P625",
+      "website": "https://www.wikidata.org/wiki/Q1539696#P856",
+      "engineering_programs": "https://www.ipn.mx/oferta-educativa/educacion-superior/"
+    },
+    "notes": "Coordonnées Wikidata = Unidad Profesional Adolfo López Mateos (Zacatenco), au nord de Mexico, adresse indiquée sur le site officiel ; ESIME et ESIA y ont une unité, mais d'autres écoles d'ingénierie sont sur d'autres sites (Culhuacán, Ticomán, Azcapotzalco…)."
+  },
+  {
+    "id": "universidad-de-costa-rica",
+    "name": "University of Costa Rica",
+    "name_local": "Universidad de Costa Rica",
+    "city": "Montes de Oca",
+    "country": "Costa Rica",
+    "country_code": "CR",
+    "continent": "north-america",
+    "latitude": 9.9358,
+    "longitude": -84.0506,
+    "wikidata_id": "Q1305486",
+    "website": "https://www.ucr.ac.cr/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "1801-2000",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "University of Costa Rica",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/university-costa-rica"
+    },
+    "engineering_programs": "Facultad de Ingeniería : écoles de génie des biosystèmes, civil, électrique, industriel, mécanique, chimique et topographique, ainsi que l'École des sciences informatiques (Ciencias de la Computación e Informática).",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q1305486",
+      "coordinates": "https://www.wikidata.org/wiki/Q1305486#P625",
+      "website": "https://www.wikidata.org/wiki/Q1305486#P856",
+      "engineering_programs": "https://fing.ucr.ac.cr/"
+    },
+    "notes": "Campus Rodrigo Facio (San Pedro, canton de Montes de Oca), dans l'agglomération de San José, siège de la Facultad de Ingeniería."
+  },
+  {
+    "id": "tec-costa-rica",
+    "name": "Costa Rica Institute of Technology",
+    "name_local": "Tecnológico de Costa Rica",
+    "city": "Cartago",
+    "country": "Costa Rica",
+    "country_code": "CR",
+    "continent": "north-america",
+    "latitude": 9.8545,
+    "longitude": -83.909,
+    "wikidata_id": "Q5174858",
+    "website": "https://www.tec.ac.cr/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "2001+",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Tecnológico de Costa Rica",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/tecnologico-de-costa-rica"
+    },
+    "engineering_programs": "Filières d'ingénierie : informatique (computación), génie informatique (computadores), électronique, électromécanique, mécatronique, matériaux, production et maintenance industrielles, construction, design industriel, génie physique, environnemental, agricole, forestier, biotechnologie.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q5174858",
+      "coordinates": "https://www.wikidata.org/wiki/Q5174858#P625",
+      "website": "https://www.wikidata.org/wiki/Q5174858#P856",
+      "engineering_programs": "https://www.tec.ac.cr/carreras"
+    },
+    "notes": "Remplace la Universidad Tecnológica de Panamá, absente du classement THE 2027. Coordonnées : campus central (Campus Tecnológico Central) de Cartago, dans l'emprise OpenStreetMap du campus (https://www.openstreetmap.org/way/40819609). La liste officielle des filières ne précise pas le campus de chacune."
+  }
+]
