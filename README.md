@@ -27,7 +27,7 @@ pnpm bootstrap
 `pnpm bootstrap` (script [`scripts/bootstrap.sh`](scripts/bootstrap.sh)) :
 
 1. vérifie Node, pnpm et Docker (et s'arrête avec un message clair sinon) ;
-2. installe les dépendances ;
+2. installe les dépendances et les hooks git (Lefthook : Biome avant chaque commit, commitlint sur chaque message) ;
 3. installe BMad (étape ignorée en CI ou avec `SKIP_BMAD=1`, utile pour un relecteur sans Claude Code : `SKIP_BMAD=1 pnpm bootstrap`) ;
 4. crée `.env` depuis [`.env.example`](.env.example) s'il n'existe pas (un `.env` existant est conservé) ;
 5. démarre Supabase en local et reporte ses URL et clés dans `.env` ;
@@ -55,6 +55,15 @@ pnpm --filter @mobility/db test            # les tests d'un seul package
 pnpm typecheck                             # vérification des types
 pnpm build                                 # build de production du web
 ```
+
+## Lint et format
+
+```bash
+pnpm lint                                  # lint et vérification du format (Biome), sans rien modifier
+pnpm format                                # corrige ce qui est corrigeable (format, imports, lint)
+```
+
+Biome ([`biome.json`](biome.json)) couvre le TypeScript, le JavaScript, le JSON et le CSS de tout le dépôt. Les hooks git ([`lefthook.yml`](lefthook.yml)), installés par `pnpm install`, lancent Biome sur les fichiers indexés avant chaque commit et vérifient le message de commit avec commitlint ([`commitlint.config.mjs`](commitlint.config.mjs)).
 
 ## Structure du dépôt
 

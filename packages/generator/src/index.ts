@@ -3,8 +3,8 @@
 
 export { canonicalJson, type Json } from './canonical-json';
 export {
-  DEFAULT_PARAMS,
   type Dataset,
+  DEFAULT_PARAMS,
   type EnglishScore,
   FIRST_NAMES,
   GENERATOR_VERSION,

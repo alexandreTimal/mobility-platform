@@ -14,3 +14,4 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/) et le pr
 - Rituel de suivi des tâches (`scripts/task.sh`).
 - `CONTRIBUTING.md`, `LICENSE` (MIT), `CODE_OF_CONDUCT.md` et ce journal.
 - Les 100 universités partenaires et leurs données d'identité sourcées (`data/raw`), avec leur validation (`packages/db`) et la méthode de collecte (`docs/donnees`).
+- Lint et format avec Biome (`pnpm lint`, `pnpm format`), hooks git Lefthook : Biome avant chaque commit, commitlint (Conventional Commits, scopes du projet) sur chaque message.

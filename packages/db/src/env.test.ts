@@ -19,9 +19,9 @@ describe('parseDatabaseEnv', () => {
   });
 
   it('refuse une URL qui n’est pas Postgres', () => {
-    expect(() =>
-      parseDatabaseEnv({ DATABASE_URL: LOCAL_URL, DATABASE_URL_MIGRATIONS: 'http://exemple.test' }),
-    ).toThrow(/DATABASE_URL_MIGRATIONS : doit être une URL Postgres/);
+    expect(() => parseDatabaseEnv({ DATABASE_URL: LOCAL_URL, DATABASE_URL_MIGRATIONS: 'http://exemple.test' })).toThrow(
+      /DATABASE_URL_MIGRATIONS : doit être une URL Postgres/,
+    );
   });
 });
 

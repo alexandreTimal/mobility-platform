@@ -13,6 +13,8 @@
     "build": "turbo run build",
     "test": "turbo run test",
     "typecheck": "turbo run typecheck",
+    "lint": "biome check",
+    "format": "biome check --write",
     "db:start": "supabase start",
     "db:stop": "supabase stop",
     "db:migrate": "pnpm --filter @mobility/db run migrate",
@@ -21,6 +23,10 @@
     "data:students": "pnpm --filter @mobility/generator run generate"
   },
   "devDependencies": {
+    "@biomejs/biome": "2.6.8",
+    "@commitlint/cli": "21.2.4",
+    "@commitlint/config-conventional": "21.2.4",
+    "lefthook": "2.2.2",
     "supabase": "3.4.0",
     "turbo": "2.11.13",
     "typescript": "6.0.3"

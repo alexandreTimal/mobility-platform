@@ -3,6 +3,7 @@ packages:
   - "packages/*"
 allowBuilds:
   esbuild: true
+  lefthook: true
 # Versions imposées par la Stack (docs/technique/architecture.md) publiées depuis moins que
 # l'âge minimal de publication exigé par pnpm : exclues de ce contrôle. Ces lignes peuvent
 # être retirées dès que ces versions ont dépassé ce délai.

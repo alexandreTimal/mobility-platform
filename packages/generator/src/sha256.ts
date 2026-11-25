@@ -2,6 +2,7 @@
 // ni d'API propre à une plateforme (AD-6). Il est vérifié contre `node:crypto`
 // dans sha256.test.ts.
 
+// biome-ignore format: table de constantes SHA-256 par lignes de 8, comme dans la FIPS 180-4
 const K = new Uint32Array([
   0x428a2f98, 0x71374491, 0xb5c0fbcf, 0xe9b5dba5, 0x3956c25b, 0x59f111f1, 0x923f82a4, 0xab1c5ed5,
   0xd807aa98, 0x12835b01, 0x243185be, 0x550c7dc3, 0x72be5d74, 0x80deb1fe, 0x9bdc06a7, 0xc19bf174,

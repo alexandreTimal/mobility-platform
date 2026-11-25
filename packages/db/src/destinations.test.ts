@@ -81,10 +81,7 @@ describe('validateDestinations', () => {
   it('signale un continent absent et un quota non respecté', () => {
     const { oceania: _absent, ...files } = validFiles();
     files.africa = files.africa.slice(1);
-    expect(problemsOf(files)).toEqual([
-      'africa.json : 9 destinations au lieu de 10',
-      'oceania.json : fichier absent',
-    ]);
+    expect(problemsOf(files)).toEqual(['africa.json : 9 destinations au lieu de 10', 'oceania.json : fichier absent']);
   });
 
   it('refuse un rang avec "=" et un rang absent pour une université classée', () => {
@@ -93,7 +90,9 @@ describe('validateDestinations', () => {
     files.europe[1] = { ...delft, id: 'b', wikidata_id: 'Q9002', ranking: { ...delft.ranking, rank: null } };
     const problems = problemsOf(files);
     expect(problems.some((p) => p.startsWith('europe.json[0] (a) : ranking.rank : rang attendu'))).toBe(true);
-    expect(problems).toContain('europe.json[1] (b) : ranking.rank : rank est renseigné si et seulement si status vaut "ranked"');
+    expect(problems).toContain(
+      'europe.json[1] (b) : ranking.rank : rank est renseigné si et seulement si status vaut "ranked"',
+    );
   });
 
   it('accepte une université évaluée mais non classée (reporter) sans rang', () => {
@@ -105,7 +104,13 @@ describe('validateDestinations', () => {
   it('exige une source pour chaque donnée et refuse les champs inconnus', () => {
     const files = validFiles();
     const { website: _w, ...sources } = delft.sources;
-    files.asia[0] = { ...delft, id: 'a', wikidata_id: 'Q9001', continent: 'asia', sources: sources as Destination['sources'] };
+    files.asia[0] = {
+      ...delft,
+      id: 'a',
+      wikidata_id: 'Q9001',
+      continent: 'asia',
+      sources: sources as Destination['sources'],
+    };
     files.asia[1] = { ...delft, id: 'b', wikidata_id: 'Q9002', continent: 'asia', photo: 'x' } as Destination;
     const problems = problemsOf(files);
     expect(problems.some((p) => p.startsWith('asia.json[0] (a) : sources.website'))).toBe(true);
