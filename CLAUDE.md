@@ -2,11 +2,11 @@
 
 Instructions partagées pour Claude Code (et tout assistant IA) sur ce dépôt. Ce fichier est **versionné et commun au groupe** : les préférences personnelles vont dans `CLAUDE.local.md` (ignoré par git).
 
-> Statut : dépôt en cours d'initialisation, aucune stack choisie (issue #1). Mettre ce fichier à jour dès qu'une décision technique est prise (commandes, arborescence, conventions de code).
+> Statut : stack et règles d'architecture décidées, code applicatif pas encore initialisé (#2). **Les règles AD-1 à AD-16 de [`docs/technique/architecture.md`](docs/technique/architecture.md) font foi** (stack, arborescence, conventions de code) ; les justifications sont dans [`docs/adr/`](docs/adr/README.md). BMad est obligatoire (`scripts/setup-bmad.sh`) ; pour s'orienter, utiliser `/mobility-help`. Mettre ce fichier à jour dès que les commandes (`pnpm bootstrap`, `pnpm dev`, `pnpm test`) existent.
 
 ## 1. Le projet en bref
 
-Projet PGE5 (groupe de 3, du 19/10/2026 à fin janvier 2027). On crée une **école d'ingénieurs fictive** qui répartit **1 000 étudiants fictifs** de 4e année sur **100 universités partenaires réelles** via un **moteur de règles configurable**.
+Projet PGE5 (groupes de 3 dans le sujet, réalisé à 2 : Alexandre pour la gestion, le backend, le moteur, les données, le web, la CI et la doc ; Ethan pour l'UI/UX et le mobile ; du 19/10/2026 à fin janvier 2027). On crée une **école d'ingénieurs fictive** qui répartit **1 000 étudiants fictifs** de 4e année sur **100 universités partenaires réelles** via un **moteur de règles configurable**.
 
 Livrables : plateforme web + application mobile (même API), documentation utilisateur et technique, audit et déclaration d'accessibilité, dépôt propre avec CI/CD et GitHub Projects, mini charte graphique, jeu de données sourcé, déclaration d'usage de l'IA.
 
@@ -83,7 +83,7 @@ Le suivi est **évalué** : le tableau doit être tenu à jour du début à la f
 
 ### Règle de base
 
-**Pas de travail sans issue, pas de merge sans PR.** Chaque tâche est une issue ; chaque développement passe par une PR reliée à son issue (`Closes #N`, ou `Refs #N` si elle ne termine pas l'issue). Pas de relecture obligatoire : **chaque membre est responsable de ses PR** et les merge lui-même une fois les checks verts.
+**Pas de travail sans issue, pas de merge sans PR.** Chaque tâche est une issue ; chaque développement passe par une PR reliée à son issue (`Closes #N`, ou `Refs #N` si elle ne termine pas l'issue). **Relecture obligatoire** : une approbation de l'autre membre (invalidée par un nouveau push), puis l'auteur merge lui-même une fois la PR approuvée et les checks verts (voir ADR-0009).
 
 ### Champs du tableau
 
@@ -183,7 +183,7 @@ Stratégie : **GitHub Flow**.
 - Merge en **squash uniquement** ; la branche est supprimée après merge. Le titre de la PR devient le message de commit sur `main` : il doit donc respecter Conventional Commits.
 - Branches courtes depuis `main` : `<type>/<N>-<slug>`, ex. `feat/15-catalogue-web`, `fix/42-focus-carte`, `docs/8-modele-donnees`.
 - Commits **Conventional Commits** : `feat(engine): ajoute le départage par GPA`, `fix(web): …`, `docs: …`, `test: …`, `chore: …`, `ci: …`. Messages en français, au présent.
-- Une PR = une issue, petite et lisible, avec `Closes #N` (ou `Refs #N`). L'auteur la merge lui-même une fois les checks verts.
+- Une PR = une issue, petite et lisible, avec `Closes #N` (ou `Refs #N`). L'auteur la merge lui-même une fois approuvée par l'autre membre et les checks verts.
 - Tags semver à chaque milestone (`v0.1.0` = M1, `v0.2.0` = M2…), avec `CHANGELOG.md` à jour.
 
 ## 7. Fichiers indispensables (à maintenir)

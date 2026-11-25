@@ -28,7 +28,8 @@ Merci de contribuer ! Ce guide décrit comment on travaille sur le dépôt. Les 
    ```
 
 5. **Ouvrir une pull request** vers `main`, avec le modèle de PR, `Closes #N` dans la description (ou `Refs #N` si la PR ne termine pas l'issue) et la checklist remplie honnêtement.
-6. **Merger soi-même** une fois les checks verts (squash). L'issue se ferme et passe en ✅ Terminé.
+6. **Faire relire** : l'autre membre relit et approuve la PR (obligatoire). Un nouveau push invalide l'approbation.
+7. **Merger soi-même** une fois la PR approuvée et les checks verts (squash). L'issue se ferme et passe en ✅ Terminé.
 
 Le statut des issues sur le tableau suit tout seul (voir le [README](README.md#automatisation-du-tableau)) : pas besoin de déplacer les cartes à la main.
 
@@ -45,12 +46,12 @@ Le statut des issues sur le tableau suit tout seul (voir le [README](README.md#a
 | Règle | Réglage |
 |---|---|
 | Pull request obligatoire | Oui |
-| Relecture obligatoire | Non : **chaque membre est responsable de ses PR** (décision d'équipe) |
+| Relecture obligatoire | Oui : **1 approbation** de l'autre membre, invalidée par un nouveau push (voir [ADR-0009](docs/adr/0009-flux-git-pr-relecture.md)) |
 | Conversations résolues avant merge | Oui |
 | Force-push et suppression de la branche | Interdits |
 | Checks CI obligatoires | Dès que le pipeline existe (issue #6) |
 
-Une relecture reste la bienvenue : on peut demander l'avis de l'autre sur une PR sensible.
+Relire les PR de l'autre fait partie du travail : on vérifie le fonctionnement, les tests, l'accessibilité et le respect de l'[architecture](docs/technique/architecture.md).
 
 ## Conventions
 

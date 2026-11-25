@@ -29,6 +29,24 @@ L'Action vérifie aussi que chaque PR a un titre [Conventional Commits](https://
 
 Elle a besoin du secret de dépôt `PROJECT_TOKEN` : un *personal access token (classic)* avec les scopes `repo` et `project` (le `GITHUB_TOKEN` par défaut ne peut pas modifier un Project utilisateur). Sans ce secret, la synchronisation est ignorée avec un avertissement.
 
+## Architecture
+
+La stack et les règles du projet sont dans [`docs/technique/architecture.md`](docs/technique/architecture.md) : monorepo pnpm + Turborepo, web et API en Next.js, mobile Expo (Android), Supabase (Postgres + Auth), Drizzle. Les justifications sont dans les [ADR](docs/adr/README.md).
+
+## Outils IA (BMad) — obligatoire pour l'équipe
+
+```bash
+./scripts/setup-bmad.sh   # bientôt inclus dans `pnpm bootstrap`
+```
+
+Puis, dans Claude Code :
+
+- `/mobility-help` : où en est le projet, où trouver quoi, quoi faire ensuite ;
+- `/bmad-help` : quel skill BMad utiliser maintenant ;
+- `/bmad-build #N` : développer une issue.
+
+Détails et règles d'usage : [`docs/guide/bmad.md`](docs/guide/bmad.md).
+
 ## Contribuer
 
 Voir [`CONTRIBUTING.md`](CONTRIBUTING.md) et le [code de conduite](CODE_OF_CONDUCT.md). Les évolutions sont consignées dans le [`CHANGELOG.md`](CHANGELOG.md).
