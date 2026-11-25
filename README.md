@@ -114,6 +114,14 @@ L'Action vérifie aussi que chaque PR a un titre [Conventional Commits](https://
 
 Elle a besoin du secret de dépôt `PROJECT_TOKEN` : un *personal access token (classic)* avec les scopes `repo` et `project` (le `GITHUB_TOKEN` par défaut ne peut pas modifier un Project utilisateur). Sans ce secret, la synchronisation est ignorée avec un avertissement.
 
+## Déclaration d'usage de l'IA
+
+Conformément à la charte IONIS, nous déclarons ici chaque usage significatif de l'IA. Tout contenu produit avec une IA est relu, testé et passe en pull request comme le reste du dépôt ; toute donnée réelle est rattachée à une source vérifiable.
+
+| Domaine | Outil | Usage | Vérification |
+|---|---|---|---|
+| Données : sélection des 100 universités et identité (issue #9) | Claude Code (agents) | Recherche des universités selon nos critères, collecte des noms, coordonnées, sites et classements, rédaction des résumés des domaines d'ingénierie | Contrôles automatiques (quotas, doublons, coordonnées comparées à Wikidata), classement repris de la table officielle THE 2027, chaque résumé relu contre la page citée, relecture humaine en PR. Méthode : [`docs/donnees/collecte-destinations.md`](docs/donnees/collecte-destinations.md) |
+
 ## Contribuer
 
 Voir [`CONTRIBUTING.md`](CONTRIBUTING.md) et le [code de conduite](CODE_OF_CONDUCT.md). Les évolutions sont consignées dans le [`CHANGELOG.md`](CHANGELOG.md).
@@ -126,4 +134,3 @@ Voir [`CONTRIBUTING.md`](CONTRIBUTING.md) et le [code de conduite](CODE_OF_CONDU
 
 - Présentation et captures
 - URL en ligne et badge CI (#6, #19)
-- Déclaration d'usage de l'IA

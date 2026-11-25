@@ -1,0 +1,292 @@
+[
+  {
+    "id": "university-of-sao-paulo",
+    "name": "University of São Paulo",
+    "name_local": "Universidade de São Paulo",
+    "city": "São Paulo",
+    "country": "Brésil",
+    "country_code": "BR",
+    "continent": "south-america",
+    "latitude": -23.5614,
+    "longitude": -46.7308,
+    "wikidata_id": "Q835960",
+    "website": "https://www.usp.br",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "141",
+      "tied": true,
+      "status": "ranked",
+      "the_name": "University of São Paulo",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/university-sao-paulo"
+    },
+    "engineering_programs": "École polytechnique (Escola Politécnica) : 17 cursus d'ingénieur, dont génie environnemental, civil, informatique (computação), des mines, pétrolier, métallurgique, de production, des matériaux, électrique, électronique, mécatronique, nucléaire, chimique, naval et mécanique.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q835960",
+      "coordinates": "https://www.wikidata.org/wiki/Q835960#P625",
+      "website": "https://www.wikidata.org/wiki/Q835960#P856",
+      "engineering_programs": "https://www.poli.usp.br/ensino/graduacao/cursos-e-habilitacoes/"
+    },
+    "notes": "Coordonnées : campus de Butantã (Cidade Universitária), où se trouve l'École polytechnique ; l'université compte d'autres campus, notamment à São Carlos et Lorena. Wikidata indique deux sites officiels (https://www.usp.br et https://www5.usp.br/#english) ; le premier est retenu (il redirige vers https://www5.usp.br/)."
+  },
+  {
+    "id": "unicamp",
+    "name": "University of Campinas",
+    "name_local": "Universidade Estadual de Campinas",
+    "city": "Campinas",
+    "country": "Brésil",
+    "country_code": "BR",
+    "continent": "south-america",
+    "latitude": -22.8172,
+    "longitude": -47.0694,
+    "wikidata_id": "Q2060678",
+    "website": "https://www.unicamp.br/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "326-350",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "University of Campinas",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/university-campinas"
+    },
+    "engineering_programs": "Facultés de génie agricole, civil (avec architecture et urbanisme), alimentaire, électrique et informatique (FEEC), mécanique et chimique ; Institut d'informatique (IC) ; Faculté de technologie (FT) à Limeira.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q2060678",
+      "coordinates": "https://www.wikidata.org/wiki/Q2060678#P625",
+      "website": "https://www.wikidata.org/wiki/Q2060678#P856",
+      "engineering_programs": "https://www.unicamp.br/faculdades-e-institutos/"
+    },
+    "notes": "Coordonnées : campus principal de Barão Geraldo (Campinas), qui regroupe les facultés d'ingénierie ; la Faculté de technologie est à Limeira. Wikidata indique le site en http (http://www.unicamp.br) ; la version https répond."
+  },
+  {
+    "id": "national-university-of-la-plata",
+    "name": "National University of La Plata",
+    "name_local": "Universidad Nacional de La Plata",
+    "city": "La Plata",
+    "country": "Argentine",
+    "country_code": "AR",
+    "continent": "south-america",
+    "latitude": -34.9074,
+    "longitude": -57.9449,
+    "wikidata_id": "Q784171",
+    "website": "https://unlp.edu.ar/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "1801-2000",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "National University of La Plata",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/national-university-la-plata"
+    },
+    "engineering_programs": "Facultad de Ingeniería : ingénierie aérospatiale, arpentage (agrimensura), civile, informatique (computación), électromécanique, électronique, énergie électrique, hydraulique, industrielle, des matériaux, mécanique, chimique et télécommunications.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q784171",
+      "coordinates": "https://www.openstreetmap.org/way/120225065",
+      "website": "https://www.wikidata.org/wiki/Q784171#P856",
+      "engineering_programs": "https://ing.unlp.edu.ar/grado/carreras/"
+    },
+    "notes": "Remplace l'Université de Buenos Aires (UBA), absente du classement THE 2027. Coordonnées = bâtiment central de la Facultad de Ingeniería (calle 1 y 47) ; le point Wikidata de la faculté (Q16566043) tombe sur le bâtiment voisin de la Facultad de Ciencias Exactas, et celui de l'université sur la présidence."
+  },
+  {
+    "id": "itba",
+    "name": "Buenos Aires Institute of Technology",
+    "name_local": "Instituto Tecnológico de Buenos Aires",
+    "city": "Buenos Aires",
+    "country": "Argentine",
+    "country_code": "AR",
+    "continent": "south-america",
+    "latitude": -34.6409,
+    "longitude": -58.4015,
+    "wikidata_id": "Q3068593",
+    "website": "https://www.itba.edu.ar/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": null,
+      "tied": false,
+      "status": "reporter",
+      "the_name": "Instituto Tecnológico de Buenos Aires (ITBA)",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/instituto-tecnologico-de-buenos-aires-itba"
+    },
+    "engineering_programs": "Ingénierie civile, industrielle, électronique, informatique, mécanique, navale, pétrolière, chimique et en biotechnologie, bio-ingénierie ; licences en analytique (data science), négoce et technologie, sciences du comportement.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q3068593",
+      "coordinates": "https://www.openstreetmap.org/way/402516058",
+      "website": "https://www.wikidata.org/wiki/Q3068593#P856",
+      "engineering_programs": "https://www.itba.edu.ar/grado/"
+    },
+    "notes": "Sites listés sur la page officielle https://www.itba.edu.ar/la-universidad/institucional/sedes/ : Sede Distrito Tecnológico (Lavardén 315), Sede Rectorado (Iguazú 341) et Sede Distrito Financiero (San Martín 202) ; un campus unique est en construction à Núñez. Point retenu : Sede Distrito Tecnológico, ouverte en 2016, qui abrite le centre d'ingénierie mécanique CIDIM (Wikipédia en espagnol) ; elle est à 450 m du rectorat, dans le même quartier de Parque Patricios."
+  },
+  {
+    "id": "puc-chile",
+    "name": "Pontifical Catholic University of Chile",
+    "name_local": "Pontificia Universidad Católica de Chile",
+    "city": "Macul",
+    "country": "Chili",
+    "country_code": "CL",
+    "continent": "south-america",
+    "latitude": -33.4988,
+    "longitude": -70.6107,
+    "wikidata_id": "Q1129925",
+    "website": "https://www.uc.cl/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "451-500",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Pontificia Universidad Católica de Chile",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/pontificia-universidad-catolica-de-chile"
+    },
+    "engineering_programs": "École d'ingénierie : génie de la construction, structures et géotechnique, hydraulique et environnement, transport et logistique, industriel et systèmes, mécanique et métallurgie, chimique et bioprocédés, électrique, minier, informatique (ciencia de la computación), design.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q1129925",
+      "coordinates": "https://www.openstreetmap.org/way/41391280",
+      "website": "https://www.wikidata.org/wiki/Q1129925#P856",
+      "engineering_programs": "https://www.ing.uc.cl/programas-de-estudio/pregrado/"
+    },
+    "notes": "Coordonnées = campus San Joaquín (commune de Macul, Grand Santiago), où se trouve l'école d'ingénierie ; les coordonnées Wikidata désignaient la Casa Central, au centre de Santiago."
+  },
+  {
+    "id": "utfsm",
+    "name": "Federico Santa María Technical University",
+    "name_local": "Universidad Técnica Federico Santa María",
+    "city": "Valparaíso",
+    "country": "Chili",
+    "country_code": "CL",
+    "continent": "south-america",
+    "latitude": -33.035,
+    "longitude": -71.5951,
+    "wikidata_id": "Q457793",
+    "website": "https://usm.cl/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "1601-1800",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Federico Santa María Technical University",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/federico-santa-maria-technical-university"
+    },
+    "engineering_programs": "Départements d'aéronautique, électricité, électronique, informatique, génie électrique, mécanique, chimique et environnemental, des mines, métallurgie et matériaux, industries, génie civil (obras civiles), design et fabrication, architecture.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q457793",
+      "coordinates": "https://www.wikidata.org/wiki/Q457793#P625",
+      "website": "https://www.wikidata.org/wiki/Q457793#P856",
+      "engineering_programs": "https://usm.cl/universidad/departamentos/"
+    },
+    "notes": "Coordonnées : campus Casa Central de Valparaíso ; l'université a aussi des campus à San Joaquín et Vitacura (Santiago) et des sièges à Viña del Mar et Concepción."
+  },
+  {
+    "id": "uniandes",
+    "name": "University of the Andes",
+    "name_local": "Universidad de los Andes",
+    "city": "Bogotá",
+    "country": "Colombie",
+    "country_code": "CO",
+    "continent": "south-america",
+    "latitude": 4.6012,
+    "longitude": -74.0657,
+    "wikidata_id": "Q1569421",
+    "website": "https://uniandes.edu.co/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "801-1000",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "University of the Andes, Colombia",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/university-andes-colombia"
+    },
+    "engineering_programs": "Faculté d'ingénierie : départements et programmes d'ingénierie biomédicale, civile et environnementale, électrique et électronique, industrielle, mécanique, chimique et alimentaire, systèmes et informatique (sistemas y computación).",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q1569421",
+      "coordinates": "https://www.wikidata.org/wiki/Q1569421#P625",
+      "website": "https://www.wikidata.org/wiki/Q1569421#P856",
+      "engineering_programs": "https://es.wikipedia.org/wiki/Universidad_de_los_Andes_(Colombia)"
+    },
+    "notes": "Coordonnées : campus central (Santa Fe, Bogotá), où la faculté d'ingénierie occupe l'édifice Mario Laserna ; l'université a aussi un site à Carthagène. Le site officiel (uniandes.edu.co) bloque les accès automatisés (Cloudflare) et curl rejette son certificat TLS (25/11/2026) : URL conservée d'après Wikidata, programmes rédigés d'après Wikipédia."
+  },
+  {
+    "id": "pucp",
+    "name": "Pontifical Catholic University of Peru",
+    "name_local": "Pontificia Universidad Católica del Perú",
+    "city": "Lima",
+    "country": "Pérou",
+    "country_code": "PE",
+    "continent": "south-america",
+    "latitude": -12.0694,
+    "longitude": -77.0794,
+    "wikidata_id": "Q200601",
+    "website": "https://www.pucp.edu.pe",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "1601-1800",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Pontifical Catholic University of Peru",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/pontifical-catholic-university-peru"
+    },
+    "engineering_programs": "Faculté des sciences et de l'ingénierie : génie environnemental, biomédical, civil, des télécommunications, des mines, électronique, géologique, industriel, informatique, mécanique, mécatronique et chimique.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q200601",
+      "coordinates": "https://www.wikidata.org/wiki/Q200601#P625",
+      "website": "https://www.wikidata.org/wiki/Q200601#P856",
+      "engineering_programs": "https://facultad-ciencias-ingenieria.pucp.edu.pe/"
+    },
+    "notes": "Campus principal avenue Universitaria (district de San Miguel, Lima), qui accueille la faculté des sciences et de l'ingénierie. Le site officiel s'ouvre dans un navigateur mais curl rejette son certificat TLS (25/11/2026)."
+  },
+  {
+    "id": "ort-uruguay",
+    "name": "ORT Uruguay University",
+    "name_local": "Universidad ORT Uruguay",
+    "city": "Montevideo",
+    "country": "Uruguay",
+    "country_code": "UY",
+    "continent": "south-america",
+    "latitude": -34.9038,
+    "longitude": -56.1906,
+    "wikidata_id": "Q3772943",
+    "website": "https://www.ort.edu.uy/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": null,
+      "tied": false,
+      "status": "reporter",
+      "the_name": "ORT Uruguay University",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/ort-uruguay-university"
+    },
+    "engineering_programs": "Facultad de Ingeniería : ingénierie électrique, électronique, des systèmes (informatique), des télécommunications et en biotechnologie ; licences en systèmes, bioinformatique et biotechnologie.",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q3772943",
+      "coordinates": "https://www.wikidata.org/wiki/Q3772943#P625",
+      "website": "https://www.wikidata.org/wiki/Q3772943#P856",
+      "engineering_programs": "https://fi.ort.edu.uy/carreras-universitarias"
+    },
+    "notes": "Remplace l'Universidad de la República (Udelar), absente du classement THE 2027. Coordonnées = campus Centro (Cuareim 1451), où OpenStreetMap situe la faculté d'ingénierie (node/1197823187) ; l'université a un second campus à Pocitos. La liste des cursus est générée en JavaScript (consultée dans un navigateur)."
+  },
+  {
+    "id": "espol",
+    "name": "ESPOL Polytechnic University",
+    "name_local": "Escuela Superior Politécnica del Litoral",
+    "city": "Guayaquil",
+    "country": "Équateur",
+    "country_code": "EC",
+    "continent": "south-america",
+    "latitude": -2.1447,
+    "longitude": -79.9677,
+    "wikidata_id": "Q3732873",
+    "website": "https://www.espol.edu.ec/",
+    "ranking": {
+      "name": "THE World University Rankings 2027",
+      "rank": "1401-1600",
+      "tied": false,
+      "status": "ranked",
+      "the_name": "Escuela Superior Politécnica del Litoral",
+      "source": "https://www.timeshighereducation.com/world-university-rankings/escuela-superior-politecnica-del-litoral"
+    },
+    "engineering_programs": "Facultés d'ingénierie en sciences de la Terre (génie civil, géologie, mines, pétrole), en électricité et informatique (informatique, électricité, électronique, télécommunications, données et IA), maritime (génie naval), en mécanique et production (industriel, mécanique, mécatronique, matériaux).",
+    "sources": {
+      "identity": "https://www.wikidata.org/wiki/Q3732873",
+      "coordinates": "https://www.openstreetmap.org/way/317804756",
+      "website": "https://www.wikidata.org/wiki/Q3732873#P856",
+      "engineering_programs": "https://www.espol.edu.ec/es/educacion/grado"
+    },
+    "notes": "Le libellé anglais Wikidata reprend le nom espagnol ; le nom anglais retenu est celui de l'article Wikipédia en anglais. Coordonnées = bâtiment de la faculté d'électricité et d'informatique (FIEC), au cœur du pôle des facultés d'ingénierie du campus Gustavo Galindo ; le point Wikidata tombait sur la route d'accès, hors de l'enceinte."
+  }
+]
