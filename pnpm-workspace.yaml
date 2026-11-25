@@ -1,0 +1,20 @@
+packages:
+  - "apps/*"
+  - "packages/*"
+allowBuilds:
+  esbuild: true
+# Versions imposées par la Stack (docs/technique/architecture.md) publiées depuis moins que
+# l'âge minimal de publication exigé par pnpm : exclues de ce contrôle. Ces lignes peuvent
+# être retirées dès que ces versions ont dépassé ce délai.
+minimumReleaseAgeExclude:
+  - "@supabase/cli-darwin-arm64@3.4.0"
+  - "@supabase/cli-darwin-x64@3.4.0"
+  - "@supabase/cli-linux-arm64-musl@3.4.0"
+  - "@supabase/cli-linux-arm64@3.4.0"
+  - "@supabase/cli-linux-x64-musl@3.4.0"
+  - "@supabase/cli-linux-x64@3.4.0"
+  - "@supabase/cli-windows-arm64@3.4.0"
+  - "@supabase/cli-windows-x64@3.4.0"
+  - "@types/node@24.19.3"
+  - "@types/react@19.3.2"
+  - supabase@3.4.0

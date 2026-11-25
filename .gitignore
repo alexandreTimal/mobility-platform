@@ -23,6 +23,12 @@ build/
 coverage/
 .turbo/
 .next/
+*.tsbuildinfo
+next-env.d.ts
+
+# Supabase local (état de la CLI)
+supabase/.temp/
+supabase/.branches/
 *.apk
 *.aab
 

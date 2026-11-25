@@ -2,7 +2,7 @@
 
 Instructions partagées pour Claude Code (et tout assistant IA) sur ce dépôt. Ce fichier est **versionné et commun au groupe** : les préférences personnelles vont dans `CLAUDE.local.md` (ignoré par git).
 
-> Statut : stack et règles d'architecture décidées, code applicatif pas encore initialisé (#2). **Les règles AD-1 à AD-16 de [`docs/technique/architecture.md`](docs/technique/architecture.md) font foi** (stack, arborescence, conventions de code) ; les justifications sont dans [`docs/adr/`](docs/adr/README.md). BMad est obligatoire (`scripts/setup-bmad.sh`) ; pour s'orienter, utiliser `/mobility-help`. Mettre ce fichier à jour dès que les commandes (`pnpm bootstrap`, `pnpm dev`, `pnpm test`) existent.
+> Statut : socle du monorepo en place (#2) : `apps/web`, `packages/shared`, `packages/db`, Supabase local ; pas encore de lint (#4), de CI (#6), de modèle de données (#8) ni d'app mobile (#18). **Les règles AD-1 à AD-16 de [`docs/technique/architecture.md`](docs/technique/architecture.md) font foi** (stack, arborescence, conventions de code) ; les justifications sont dans [`docs/adr/`](docs/adr/README.md). BMad est obligatoire (installé par `pnpm bootstrap`) ; pour s'orienter, utiliser `/mobility-help`. Les commandes du projet sont en §11.
 
 ## 1. Le projet en bref
 
@@ -214,4 +214,21 @@ Toute décision technique structurante → un ADR.
 
 ## 11. Commandes du projet
 
-_À compléter dès l'initialisation du dépôt applicatif (issue #2)_ : installation en une commande, lancement web/API/mobile, tests (tous / un seul), lint, build.
+Prérequis : Node ≥ 24.3, pnpm 12 (`npm install -g pnpm@12` ; version exacte fixée par `packageManager`), Docker démarré.
+
+| Commande | Effet |
+|---|---|
+| `pnpm bootstrap` | Installation complète et idempotente (`scripts/bootstrap.sh`) : prérequis, dépendances, BMad (ignoré si `CI` ou `SKIP_BMAD=1`), `.env` depuis `.env.example`, Supabase local, migrations, seed |
+| `pnpm dev` | Lance le web et l'API sur <http://localhost:3000> (santé : `/api/v1/health`) |
+| `pnpm test` | Tous les tests (Vitest, via Turborepo) |
+| `pnpm --filter <package> test` | Les tests d'un seul package (ex. `@mobility/db`) ; `pnpm --filter <package> exec vitest run <fichier>` pour un seul fichier |
+| `pnpm typecheck` | Vérification des types de tous les packages |
+| `pnpm build` | Build de production |
+| `pnpm db:start` / `pnpm db:stop` | Démarre / arrête Supabase local (Docker, ports 544xx) |
+| `pnpm db:generate` | Génère une migration drizzle-kit depuis `packages/db/src/schema` |
+| `pnpm db:migrate` | Applique les migrations (`DATABASE_URL_MIGRATIONS`, sinon `DATABASE_URL`) |
+| `pnpm db:seed` | Charge les données de démo (idempotent) |
+
+Lint et format : à venir avec Biome (#4). Mobile : à venir (#18).
+
+Packages : `@mobility/web` (`apps/web`), `@mobility/shared` (`packages/shared`), `@mobility/db` (`packages/db`). Les packages sont consommés en TypeScript source (pas d'étape de build), transpilés par Next.js (`transpilePackages`). Le `.env` est unique, à la racine.

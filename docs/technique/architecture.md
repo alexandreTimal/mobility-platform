@@ -309,7 +309,7 @@ erDiagram
 | Format détaillé d'une configuration et des critères | Défini dans #21 et documenté dans `docs/technique/moteur.md` ; le principe est fixé par AD-8 |
 | Librairie de cartographie web | Choisie dans #27 ; contrainte par AD-11 (points au clavier, vue liste) |
 | Générateur OpenAPI exact (`zod-openapi` ou `@asteasolutions/zod-to-openapi`) | Choisi dans #14 ; la génération à partir de Zod est fixée par AD-2 |
-| Librairie de logs | Choisie au scaffold (#2) ; la convention de logs est fixée |
+| Librairie de logs | pino, retenue au scaffold (#2) ; ajoutée avec le premier code serveur qui journalise (#11, #14). La convention de logs est fixée |
 | Compatibilité TypeScript 7 | Le scaffold (#2) vérifie que `next build` échoue sur une erreur de type et que `tsc --noEmit` passe dans `apps/mobile` avant toute montée de version |
 | Déploiement Vercel d'un commit d'Ethan (avec trailer de co-auteur) | Testé dans #2 ; repli : `vercel deploy --prebuilt` depuis un dossier sans `.git` |
 | Format précis de l'instantané d'entrée et du résultat | Défini dans #21 et #22, dans le cadre d'AD-8 et AD-15 |
