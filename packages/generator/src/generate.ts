@@ -19,6 +19,7 @@ import {
 export const GENERATOR_VERSION = '2.0.0';
 
 // Prénoms et noms courants, combinés au hasard : les identités sont fictives.
+// biome-ignore format: liste compacte, plus lisible sur quelques lignes
 export const FIRST_NAMES = [
   'Adam', 'Aïcha', 'Alice', 'Amine', 'Anaïs', 'Arthur', 'Camille', 'Chloé',
   'Clément', 'Emma', 'Enzo', 'Fatou', 'Gabriel', 'Hugo', 'Inès', 'Jade',
@@ -26,6 +27,7 @@ export const FIRST_NAMES = [
   'Manon', 'Mathis', 'Maël', 'Nathan', 'Nina', 'Noah', 'Océane', 'Paul',
   'Rayan', 'Romane', 'Sacha', 'Sarah', 'Théo', 'Thomas', 'Yanis', 'Zoé',
 ] as const;
+// biome-ignore format: liste compacte, plus lisible sur quelques lignes
 export const LAST_NAMES = [
   'Bernard', 'Bertrand', 'Blanc', 'Bonnet', 'Boyer', 'Chevalier', 'Da Silva',
   'David', 'Diallo', 'Dubois', 'Dupont', 'Durand', 'Faure', 'Fontaine',

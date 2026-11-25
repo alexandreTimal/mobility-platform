@@ -69,9 +69,16 @@ Relire les PR de l'autre fait partie du travail : on vérifie le fonctionnement,
 | `build`, `ci` | Dépendances, pipeline |
 | `chore` | Maintenance |
 
-Scope facultatif entre parenthèses : `web`, `mobile`, `api`, `engine`, `data`… Exemple : `feat(engine): ajoute le départage par GPA`.
+Scope facultatif entre parenthèses, parmi `web`, `mobile`, `engine`, `api`, `db`, `shared`, `data`, `docs`, `ci`, `design`, `generator`, `deps` (liste dans [`commitlint.config.mjs`](commitlint.config.mjs), appliquée aussi au titre de PR). Le sujet commence par une minuscule. Exemple : `feat(engine): ajoute le départage par GPA`.
 
 Le check **« Conventions de PR »** vérifie le titre et la présence de `Closes #N` / `Refs #N`.
+
+**Lint, format et hooks git** : [Biome](https://biomejs.dev/) lint et formate le TypeScript, le JavaScript, le JSON et le CSS ([`biome.json`](biome.json)) : 2 espaces, guillemets simples, points-virgules, 120 colonnes. `pnpm lint` vérifie sans rien modifier, `pnpm format` corrige ce qui est corrigeable. Les hooks git sont gérés par [Lefthook](https://lefthook.dev/) ([`lefthook.yml`](lefthook.yml)) et installés automatiquement par `pnpm install` (donc par `pnpm bootstrap`) :
+
+- **pre-commit** : Biome corrige les fichiers indexés et les réindexe ; le commit est refusé s'il reste une erreur non corrigeable (le message de Biome indique laquelle) ;
+- **commit-msg** : commitlint ([`commitlint.config.mjs`](commitlint.config.mjs)) refuse un message qui ne suit pas Conventional Commits ou dont le scope n'est pas dans la liste ci-dessus.
+
+Si les hooks ne se déclenchent pas (dépendances installées avant leur ajout), lancer `pnpm exec lefthook install`. Ne pas les contourner avec `--no-verify`. Pour désactiver une règle Biome sur une ligne, utiliser un commentaire `// biome-ignore <règle>: <raison>` justifié, jamais une désactivation globale.
 
 **Documentation** : en français, dans `/docs`, écrite au fil de l'eau. Une fonctionnalité n'est pas terminée tant que sa doc n'est pas à jour. Toute décision technique structurante fait l'objet d'un ADR dans `docs/adr/`.
 

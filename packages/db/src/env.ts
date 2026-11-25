@@ -22,9 +22,7 @@ const migrationsEnvSchema = z.object({ url: postgresUrl });
 export type DatabaseEnv = z.infer<typeof databaseEnvSchema>;
 
 function formatError(error: z.ZodError, label: (key: string) => string): Error {
-  const details = error.issues
-    .map((issue) => `  - ${label(issue.path.join('.'))} : ${issue.message}`)
-    .join('\n');
+  const details = error.issues.map((issue) => `  - ${label(issue.path.join('.'))} : ${issue.message}`).join('\n');
   return new Error(`Variables d'environnement de la base invalides :\n${details}`);
 }
 

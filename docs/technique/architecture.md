@@ -170,7 +170,7 @@ Chaque règle indique **Binds** (ce qu'elle concerne), **Prevents** (la divergen
 | Erreurs d'API | Toujours `{ "error": { "code": "WISH_LIMIT_EXCEEDED", "message": "…", "details"?: … } }`, avec le statut HTTP adapté. `message` est lisible par un humain, en français |
 | Validation | Zod aux frontières : entrées et sorties de l'API, variables d'environnement (validées au démarrage), fichiers de configuration |
 | Logs | Un logger structuré unique côté serveur. Jamais de données personnelles, de jeton ni de mot de passe dans les logs. Logs lisibles en développement |
-| Commits | Conventional Commits, scopes : `web`, `mobile`, `engine`, `api`, `db`, `shared`, `data`, `docs`, `ci`. Vérifiés par commitlint (Lefthook) |
+| Commits | Conventional Commits, scopes : `web`, `mobile`, `engine`, `api`, `db`, `shared`, `data`, `docs`, `ci`, `design`, `generator`, `deps`. Vérifiés par commitlint (Lefthook) et, pour le titre de PR, par le check « Conventions de PR » |
 | Branches et PR | `<type>/<N>-<slug>` (ex. `feat/17-gale-shapley`). Une PR par issue, reliée par `Closes #N`. Titre de PR conventionnel (il devient le commit du squash) |
 | Lint et format | Biome pour tout le dépôt (`biome.json` racine), appliqué avant chaque commit et dans la CI |
 | Versions | release-please avec une version unique pour le dépôt : `CHANGELOG.md` et tags `vX.Y.Z` aux étapes clés |

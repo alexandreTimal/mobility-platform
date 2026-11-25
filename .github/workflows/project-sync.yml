@@ -20,14 +20,20 @@ jobs:
     if: github.event_name == 'pull_request' && github.event.action != 'closed'
     runs-on: ubuntu-latest
     steps:
+      # Les scopes autorisés sont ceux de commitlint : une seule liste pour les commits et le titre squashé.
+      - uses: actions/checkout@v5
+        with:
+          sparse-checkout: commitlint.config.mjs
+          sparse-checkout-cone-mode: false
       - name: Titre Conventional Commits et issue liée
         env:
           TITLE: ${{ github.event.pull_request.title }}
           BODY: ${{ github.event.pull_request.body }}
         run: |
+          scopes=$(node --input-type=module -e "const { default: c } = await import('./commitlint.config.mjs'); console.log(c.rules['scope-enum'][2].join('|'))")
           ok=1
-          if ! grep -Eq '^(feat|fix|docs|style|refactor|perf|test|build|ci|chore|revert)(\([a-z0-9-]+\))?!?: .+' <<<"$TITLE"; then
-            echo "::error::Le titre doit suivre Conventional Commits, ex. « feat(web): ajoute le catalogue ». Reçu : « $TITLE »"
+          if ! grep -Eq "^(feat|fix|docs|style|refactor|perf|test|build|ci|chore|revert)(\(($scopes)\))?!?: .+" <<<"$TITLE"; then
+            echo "::error::Le titre doit suivre Conventional Commits, ex. « feat(web): ajoute le catalogue », avec un scope facultatif parmi : ${scopes//|/, }. Reçu : « $TITLE »"
             ok=0
           fi
           if ! grep -Eiq '(close[sd]?|fix(e[sd])?|resolve[sd]?|refs?) #[0-9]+' <<<"$BODY"; then

@@ -47,7 +47,10 @@ const rankingSchema = z
     message: 'rank est renseigné si et seulement si status vaut "ranked"',
     path: ['rank'],
   })
-  .refine((r) => r.status === 'ranked' || !r.tied, { message: 'une université non classée ne peut pas être ex aequo', path: ['tied'] });
+  .refine((r) => r.status === 'ranked' || !r.tied, {
+    message: 'une université non classée ne peut pas être ex aequo',
+    path: ['tied'],
+  });
 
 export const destinationSchema = z.strictObject({
   id: z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/, 'slug attendu (a-z, 0-9, tirets)'),

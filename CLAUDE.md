@@ -2,7 +2,7 @@
 
 Instructions partagées pour Claude Code (et tout assistant IA) sur ce dépôt. Ce fichier est **versionné et commun au groupe** : les préférences personnelles vont dans `CLAUDE.local.md` (ignoré par git).
 
-> Statut : socle du monorepo en place (#2) : `apps/web`, `packages/shared`, `packages/db`, Supabase local ; pas encore de lint (#4), de CI (#6), de modèle de données (#8) ni d'app mobile (#18). **Les règles AD-1 à AD-16 de [`docs/technique/architecture.md`](docs/technique/architecture.md) font foi** (stack, arborescence, conventions de code) ; les justifications sont dans [`docs/adr/`](docs/adr/README.md). BMad est obligatoire (installé par `pnpm bootstrap`) ; pour s'orienter, utiliser `/mobility-help`. Les commandes du projet sont en §11.
+> Statut : socle du monorepo en place (#2) : `apps/web`, `packages/shared`, `packages/db`, Supabase local ; lint, format et hooks git en place (#4 : Biome, Lefthook, commitlint) ; pas encore de CI (#6), de modèle de données (#8) ni d'app mobile (#18). **Les règles AD-1 à AD-16 de [`docs/technique/architecture.md`](docs/technique/architecture.md) font foi** (stack, arborescence, conventions de code) ; les justifications sont dans [`docs/adr/`](docs/adr/README.md). BMad est obligatoire (installé par `pnpm bootstrap`) ; pour s'orienter, utiliser `/mobility-help`. Les commandes du projet sont en §11.
 
 ## 1. Le projet en bref
 
@@ -190,7 +190,7 @@ Stratégie : **GitHub Flow**.
 
 `README.md` (présentation, captures, prérequis, installation, lancement, tests, liens doc, URL en ligne, badge CI, **déclaration d'usage de l'IA**), `CONTRIBUTING.md`, `LICENSE`, `CHANGELOG.md`, `CODE_OF_CONDUCT.md`, `.env.example`, `.github/` (modèles d'issue et de PR, workflows), `.gitignore`, lockfiles des dépendances.
 
-Pas de code mort ni de fichiers orphelins. Linter et formateur appliqués automatiquement (pre-commit ou CI, issue #4).
+Pas de code mort ni de fichiers orphelins. Linter et formateur (Biome) appliqués automatiquement avant chaque commit par Lefthook, et, à venir, dans la CI (#6).
 
 ## 8. Documentation
 
@@ -224,12 +224,14 @@ Prérequis : Node ≥ 24.3, pnpm 12 (`npm install -g pnpm@12` ; version exacte f
 | `pnpm --filter <package> test` | Les tests d'un seul package (ex. `@mobility/db`) ; `pnpm --filter <package> exec vitest run <fichier>` pour un seul fichier |
 | `pnpm typecheck` | Vérification des types de tous les packages |
 | `pnpm build` | Build de production |
+| `pnpm lint` | Lint et vérification du format (Biome, tout le dépôt), sans modifier |
+| `pnpm format` | Corrige le format, l'ordre des imports et le lint corrigeable (Biome) |
 | `pnpm db:start` / `pnpm db:stop` | Démarre / arrête Supabase local (Docker, ports 544xx) |
 | `pnpm db:generate` | Génère une migration drizzle-kit depuis `packages/db/src/schema` |
 | `pnpm db:migrate` | Applique les migrations (`DATABASE_URL_MIGRATIONS`, sinon `DATABASE_URL`) |
 | `pnpm db:seed` | Charge les données de démo (idempotent) |
 | `pnpm data:students` | Génère les étudiants fictifs (`--universities`, `--seed`, `--scenario`, `--count`, `--out` ; voir `packages/generator/README.md`) |
 
-Lint et format : à venir avec Biome (#4). Mobile : à venir (#18).
+Hooks git (Lefthook, installés par `pnpm install` ; `pnpm exec lefthook install` sinon) : pre-commit lance Biome sur les fichiers indexés (corrige et réindexe, refuse une erreur non corrigeable), commit-msg lance commitlint (Conventional Commits, scopes `web`, `mobile`, `engine`, `api`, `db`, `shared`, `data`, `docs`, `ci`, `design`, `generator`, `deps`, facultatifs ; sujet en minuscule). Ne jamais utiliser `--no-verify`. Mobile : à venir (#18).
 
 Packages : `@mobility/web` (`apps/web`), `@mobility/shared` (`packages/shared`), `@mobility/db` (`packages/db`), `@mobility/generator` (`packages/generator`, cœur pur). Les packages sont consommés en TypeScript source (pas d'étape de build), transpilés par Next.js (`transpilePackages`). Le `.env` est unique, à la racine.
