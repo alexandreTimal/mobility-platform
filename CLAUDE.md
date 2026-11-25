@@ -228,7 +228,8 @@ Prérequis : Node ≥ 24.3, pnpm 12 (`npm install -g pnpm@12` ; version exacte f
 | `pnpm db:generate` | Génère une migration drizzle-kit depuis `packages/db/src/schema` |
 | `pnpm db:migrate` | Applique les migrations (`DATABASE_URL_MIGRATIONS`, sinon `DATABASE_URL`) |
 | `pnpm db:seed` | Charge les données de démo (idempotent) |
+| `pnpm data:students` | Génère les étudiants fictifs (`--universities`, `--seed`, `--scenario`, `--count`, `--out` ; voir `packages/generator/README.md`) |
 
 Lint et format : à venir avec Biome (#4). Mobile : à venir (#18).
 
-Packages : `@mobility/web` (`apps/web`), `@mobility/shared` (`packages/shared`), `@mobility/db` (`packages/db`). Les packages sont consommés en TypeScript source (pas d'étape de build), transpilés par Next.js (`transpilePackages`). Le `.env` est unique, à la racine.
+Packages : `@mobility/web` (`apps/web`), `@mobility/shared` (`packages/shared`), `@mobility/db` (`packages/db`), `@mobility/generator` (`packages/generator`, cœur pur). Les packages sont consommés en TypeScript source (pas d'étape de build), transpilés par Next.js (`transpilePackages`). Le `.env` est unique, à la racine.
