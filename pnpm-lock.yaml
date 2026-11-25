@@ -263,6 +263,21 @@ importers:
         specifier: 5.1.1
         version: 5.1.1(@types/node@24.19.3)(vite@8.3.8(@types/node@24.19.3)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15))
 
+  packages/generator:
+    devDependencies:
+      '@types/node':
+        specifier: 24.19.3
+        version: 24.19.3
+      tsx:
+        specifier: 4.23.15
+        version: 4.23.15
+      typescript:
+        specifier: 6.0.3
+        version: 6.0.3
+      vitest:
+        specifier: 5.1.1
+        version: 5.1.1(@types/node@24.19.3)(vite@8.3.8(@types/node@24.19.3)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15))
+
   packages/shared:
     devDependencies:
       typescript:

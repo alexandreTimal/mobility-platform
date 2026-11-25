@@ -17,7 +17,8 @@
     "db:stop": "supabase stop",
     "db:migrate": "pnpm --filter @mobility/db run migrate",
     "db:generate": "pnpm --filter @mobility/db run generate",
-    "db:seed": "pnpm --filter @mobility/db run seed"
+    "db:seed": "pnpm --filter @mobility/db run seed",
+    "data:students": "pnpm --filter @mobility/generator run generate"
   },
   "devDependencies": {
     "supabase": "3.4.0",

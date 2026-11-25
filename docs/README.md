@@ -12,6 +12,7 @@ Toute la documentation est en français, versionnée ici en Markdown.
 | Moteur de règles, algorithmes | À venir (#21, #23) |
 | API (OpenAPI) | À venir (#14) |
 | Données et sources | [`data/README.md`](../data/README.md), à compléter (#9, #12, #13) |
+| Générateur d'étudiants fictifs | [`packages/generator/README.md`](../packages/generator/README.md) : modèle, paramètres, scénarios (#10) |
 | Application mobile | [`apps/mobile/README.md`](../apps/mobile/README.md) |
 | Exploitation (CI/CD, déploiement) | À venir (#6, #19, #20) |
 

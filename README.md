@@ -64,11 +64,12 @@ pnpm build                                 # build de production du web
 | `apps/mobile` | Application Android (Expo), à initialiser ([README](apps/mobile/README.md)) |
 | `packages/shared` | Contrat partagé : constantes, schémas Zod, types |
 | `packages/db` | Schéma Drizzle, migrations, seed, client Postgres |
+| `packages/generator` | Générateur seedé et reproductible des étudiants fictifs ([README](packages/generator/README.md)) |
 | `supabase/` | Configuration de la stack Supabase locale |
 | `scripts/` | `bootstrap.sh`, `setup-bmad.sh`, `task.sh` |
 | `docs/` | Documentation utilisateur et technique |
 
-Commandes de base de données : `pnpm db:generate` (générer une migration depuis le schéma), `pnpm db:migrate` (l'appliquer), `pnpm db:seed` (données de démo).
+Commandes de base de données : `pnpm db:generate` (générer une migration depuis le schéma), `pnpm db:migrate` (l'appliquer), `pnpm db:seed` (données de démo). Étudiants fictifs : `pnpm data:students --out students.json` (options dans le [README du générateur](packages/generator/README.md)).
 
 ## Architecture
 
